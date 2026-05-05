@@ -1,0 +1,100 @@
+{"id": "qw_14972", "question": "What colour cat is a Russian Blue?", "gold": "Grey", "pred": "Blue-gray", "elapsed": 0.36, "em": 0, "f1": 0.6667}
+{"id": "qf_1287", "question": "Vijay Singh, a US Masters champion, comes from where?", "gold": "Fiji", "pred": "Fiji", "elapsed": 0.24, "em": 1, "f1": 1.0}
+{"id": "qg_3339", "question": "What is the name of the backing band for noted bluesman Stevie Ray Vaughan?", "gold": "Double Trouble", "pred": "Double Trouble", "elapsed": 0.26, "em": 1, "f1": 1.0}
+{"id": "sfq_11784", "question": "Who was the first Olympic heavyweight boxing gold medallist to become world professional heavyweight boxing champion?", "gold": "(Joe) FRAZIER", "pred": "Gene Tunney", "elapsed": 0.18, "em": 0, "f1": 0.0}
+{"id": "odql_10842", "question": "Which British city is served by Eastleigh airport?", "gold": "Southampton", "pred": "Southampton", "elapsed": 0.14, "em": 1, "f1": 1.0}
+{"id": "sfq_5831", "question": "The plant Atropa Belladonna is better known as what?", "gold": "Deadly Nightshade", "pred": "Deadly Nightshade", "elapsed": 0.3, "em": 1, "f1": 1.0}
+{"id": "qw_8714", "question": "\"What kind of character is \"\"Touchstone\"\", who appears in Shakespeare's \"\"As You Like It\"\"?\"", "gold": "Clown", "pred": "Fool", "elapsed": 0.28, "em": 0, "f1": 0.0}
+{"id": "qb_1557", "question": "Nguyen Tan Dung became Prime Minister of which country in June 2006?", "gold": "Vietnam", "pred": "Vietnam", "elapsed": 0.25, "em": 1, "f1": 1.0}
+{"id": "sfq_3463", "question": "Opened in 1637, in which city was the first public opera house?", "gold": "Venice", "pred": "Venice", "elapsed": 0.26, "em": 1, "f1": 1.0}
+{"id": "qg_2063", "question": "According to famous American architect Louis Henri Sullivan, known as the father of skyscrapers, \"form follows what\"?", "gold": "Function", "pred": "function", "elapsed": 0.1, "em": 1, "f1": 1.0}
+{"id": "wh_4283", "question": "Which national anthem was originally called the 'War Song for the Rhine Army'?", "gold": "MARSELLAISE", "pred": "Germany's national anthem", "elapsed": 0.31, "em": 0, "f1": 0.0}
+{"id": "bt_2106", "question": "Gingivitis affects which part of the body", "gold": "Gums", "pred": "Gums", "elapsed": 0.14, "em": 1, "f1": 1.0}
+{"id": "sfq_14282", "question": "Which is the only cactus fruit that is widely eaten?", "gold": "PRICKLY PEAR", "pred": "Prickly pear", "elapsed": 0.17, "em": 1, "f1": 1.0}
+{"id": "qw_15544", "question": "What is the only sequel to win an Academy Award for Best Picture?", "gold": "The Godfather Part II", "pred": "\"The Godfather Part II\"", "elapsed": 0.31, "em": 1, "f1": 1.0}
+{"id": "bt_2087", "question": "In children's TV by what name is Sir Topham Hatt better known", "gold": "The Fat Controller", "pred": "Thomas the Tank Engine", "elapsed": 0.21, "em": 0, "f1": 0.0}
+{"id": "sfq_23157", "question": "What was the previous name of the city of Maputo?", "gold": "LOURENCO MARQUES", "pred": "Lourenço Marques", "elapsed": 0.3, "em": 1, "f1": 1.0}
+{"id": "wh_736", "question": "In which English city will you find the Ashmolean museum?", "gold": "OXFORD", "pred": "Oxford", "elapsed": 0.12, "em": 1, "f1": 1.0}
+{"id": "dpql_2767", "question": "Which English town is home to the Stephen Joseph Theatre?", "gold": "SCARBOROUGH", "pred": "Scarborough", "elapsed": 0.39, "em": 1, "f1": 1.0}
+{"id": "qb_274", "question": "Author J.R.R. Tolkien was born in which country?", "gold": "South Africa", "pred": "South Africa", "elapsed": 0.19, "em": 1, "f1": 1.0}
+{"id": "sfq_20871", "question": "Who is the only dwarf in the Disney tale of Snow White who wears spectacles?", "gold": "DOC", "pred": "Sleepy", "elapsed": 0.2, "em": 0, "f1": 0.0}
+{"id": "sfq_10619", "question": "What play was President Lincoln watching the night he was assassinated in 1865?", "gold": "Our American Cousin", "pred": "Our American Cousin", "elapsed": 0.27, "em": 1, "f1": 1.0}
+{"id": "bt_3677", "question": "Which musical instrument was patented in Berlin by Freidrich Buschmann in 1822", "gold": "Accordion", "pred": "Piano", "elapsed": 0.11, "em": 0, "f1": 0.0}
+{"id": "qg_2424", "question": "In which form of pool (pocket billiards) are the balls formed into a diamond pattern?", "gold": "Nine-ball", "pred": "Eight-ball pool", "elapsed": 0.13, "em": 0, "f1": 0.0}
+{"id": "tc_653", "question": "How old was Jimi Hendrix when he died?", "gold": "27", "pred": "27", "elapsed": 0.14, "em": 1, "f1": 1.0}
+{"id": "bb_4422", "question": "What is Mexico's most commonly used language?", "gold": "Spanish", "pred": "Spanish", "elapsed": 0.22, "em": 1, "f1": 1.0}
+{"id": "qb_4011", "question": "What is the title of Simon and Garfunkel’s only UK number one hit single?", "gold": "Bridge Over Troubled Water", "pred": "\"The Sound of Silence\"", "elapsed": 0.26, "em": 0, "f1": 0.0}
+{"id": "qf_1987", "question": "In a petrol engine what component mixes fuel and air?", "gold": "The carburettor", "pred": "Carburetor", "elapsed": 0.14, "em": 1, "f1": 1.0}
+{"id": "jp_3652", "question": "\"What group of people in the United States speak a dialect called \"\"Pennsylvania German\"\"?\"", "gold": "Amish", "pred": "Amish and Mennonite communities", "elapsed": 0.18, "em": 0, "f1": 0.4}
+{"id": "qb_6644", "question": "Giallo is Italian for which colour?", "gold": "Yellow", "pred": "Yellow", "elapsed": 0.23, "em": 1, "f1": 1.0}
+{"id": "qw_8188", "question": "The Misses World for both 1999 and 2000 represented which country?", "gold": "India", "pred": "Venezuela", "elapsed": 0.25, "em": 0, "f1": 0.0}
+{"id": "qg_2075", "question": "The principal author of the US Constitution and writer of over 1/3 of the Federalist Papers, which US President, the 4th, was CIC during the War of 1812?", "gold": "James Madison", "pred": "James Madison", "elapsed": 0.12, "em": 1, "f1": 1.0}
+{"id": "qb_6721", "question": "What is the name of the character played by actor Nicholas Lyndhurst in the British television series ‘Goodnight Sweetheart’?", "gold": "Gary Sparrow", "pred": "Dave Lister", "elapsed": 0.18, "em": 0, "f1": 0.0}
+{"id": "sfq_13367", "question": "In which year did Nick Faldo win both the Open and the US Masters Championships?", "gold": "1990", "pred": "1989", "elapsed": 0.14, "em": 0, "f1": 0.0}
+{"id": "qw_6219", "question": "What paraffin-derived clear, transparent liquid developed in 1924 by W. J. Stoddard and Lloyd E. Jackson began to be used by dry cleaners in 1928 and has become a common organic solvent used in painting and decorating?", "gold": "White spirit", "pred": "Stoddard solvent", "elapsed": 0.16, "em": 1, "f1": 1.0}
+{"id": "bb_190", "question": "What is the international telephone dialling code for Germany?", "gold": "49", "pred": "49", "elapsed": 0.25, "em": 1, "f1": 1.0}
+{"id": "qw_4707", "question": "Generals Gallieni, Manoury, Joffre, French, von Kluck, von Blow and von Moltke were involved in which battle that stopped the German advance in 1914 during World War I?", "gold": "Battle of Marne", "pred": "First Battle of the Marne", "elapsed": 0.17, "em": 0, "f1": 0.8571}
+{"id": "odql_2420", "question": "Which South American city is served by Simon Bolivar (Maiguetia) airport?", "gold": "Caracas", "pred": "Caracas", "elapsed": 0.12, "em": 1, "f1": 1.0}
+{"id": "sfq_21930", "question": "In Greek mythology, what was the name of the nymphs who tended the garden from where Heracles stole golden apples?", "gold": "Hesperides", "pred": "Hesperides", "elapsed": 0.24, "em": 1, "f1": 1.0}
+{"id": "sfq_3898", "question": "In the book David Copperfield what was Mr Micawber's first name?", "gold": "WILKINS", "pred": "Wilkins", "elapsed": 0.19, "em": 1, "f1": 1.0}
+{"id": "sfq_1224", "question": "Who was Poet Laureate from 1850 to 1892?", "gold": "Alfred Lord Tennyson", "pred": "Alfred, Lord Tennyson", "elapsed": 0.18, "em": 1, "f1": 1.0}
+{"id": "odql_981", "question": "Which famous British actor is/was married to Anouk Aimee?", "gold": "ALBERT FINNEY", "pred": "Peter O'Toole", "elapsed": 0.31, "em": 0, "f1": 0.0}
+{"id": "qb_9432", "question": "National Flag Day is celebrated in Estonia during which month of the year?", "gold": "June", "pred": "June", "elapsed": 0.15, "em": 1, "f1": 1.0}
+{"id": "qw_15027", "question": "\"The US TV series \"\"Mad Men\"\" centres around what industry or profession?\"", "gold": "Advertising", "pred": "Advertising", "elapsed": 0.1, "em": 1, "f1": 1.0}
+{"id": "dpql_135", "question": "Stella Rimington was the first female head of which organisation?", "gold": "MI5", "pred": "MI5", "elapsed": 0.13, "em": 1, "f1": 1.0}
+{"id": "sfq_5388", "question": "Which motorway links Coventry to Leicester?", "gold": "M69", "pred": "M69", "elapsed": 0.29, "em": 1, "f1": 1.0}
+{"id": "odql_241", "question": "Protons and Neutrons are both examples of which class of sub-atomic particle that takes its name from the Greek for 'heavy'?", "gold": "BARYONS", "pred": "Nucleons", "elapsed": 0.14, "em": 0, "f1": 0.0}
+{"id": "tb_490", "question": "The documentary about the making of which 1970s groundbreaking film was titled Hearts of Darkness alluding not just to the novel that inspired it but also to it's chaotic production?", "gold": "Apocalypse Now", "pred": "Apocalypse Now", "elapsed": 0.13, "em": 1, "f1": 1.0}
+{"id": "dpql_2028", "question": "Which element is the main polluting substance in acid rain?", "gold": "Sulphur", "pred": "Sulfur dioxide", "elapsed": 0.21, "em": 0, "f1": 0.6667}
+{"id": "sfq_10001", "question": "Which month of the year came second in the Roman calendar?", "gold": "April", "pred": "February", "elapsed": 0.11, "em": 0, "f1": 0.0}
+{"id": "qb_2934", "question": "Who wrote the plays ‘The Cocktail Party’ and ‘The Family Reunion’?", "gold": "T.S.Eliot", "pred": "T.S. Eliot", "elapsed": 0.15, "em": 1, "f1": 1.0}
+{"id": "sfq_2728", "question": "Which architect designed the Albert Memorial in 1875?", "gold": "George Gilbert Scott", "pred": "George Gilbert Scott", "elapsed": 0.13, "em": 1, "f1": 1.0}
+{"id": "qw_2119", "question": "\"Where would you find a \"\"plimsoll line\"\"?\"", "gold": "On a ship", "pred": "On a ship's hull.", "elapsed": 0.22, "em": 0, "f1": 0.6667}
+{"id": "sfq_24151", "question": "What is measured by a Hygrometer?", "gold": "Humidity", "pred": "Moisture content in air", "elapsed": 0.33, "em": 0, "f1": 0.3333}
+{"id": "qw_2015", "question": "Which island has belonged to Carthage, Rome, the Saracens, the King of Aragon, the Dukes of Savoy, United Italy under Victor Emmanuel and was granted autonomous government in 1947?", "gold": "Sardinia", "pred": "Sardinia", "elapsed": 0.17, "em": 1, "f1": 1.0}
+{"id": "sfq_625", "question": "In which U.S. State is the University of Harvard to be found?", "gold": "MASSACHUSSETS", "pred": "Massachusetts", "elapsed": 0.17, "em": 1, "f1": 1.0}
+{"id": "wh_88", "question": "Ushuaia, which is now generally accepted as the southernmost city in the world, is in which country?", "gold": "ARGENTINA", "pred": "Argentina", "elapsed": 0.16, "em": 1, "f1": 1.0}
+{"id": "dpql_447", "question": "A ‘gricer’ is a slang term for a what?", "gold": "TRAINSPOTTER", "pred": "gang member", "elapsed": 0.17, "em": 0, "f1": 0.0}
+{"id": "sfq_9889", "question": "Who was the last British Prime Minister to represent a Welsh constituency?", "gold": "JAMES CALLAGHAN", "pred": "Aneurin Donald Denis Lawrence Davies", "elapsed": 0.2, "em": 0, "f1": 0.0}
+{"id": "bb_6487", "question": "Angiosperm (from Greek 'angeion', bottle) is a major scientific classification of land plants which have seeds and?", "gold": "Flowers", "pred": "flowers", "elapsed": 0.21, "em": 1, "f1": 1.0}
+{"id": "qg_2852", "question": "A former software engineer, who created the comic strip character Dilbert?", "gold": "Scott Adams", "pred": "Scott Adams", "elapsed": 0.23, "em": 1, "f1": 1.0}
+{"id": "qg_1641", "question": "June 2, 2004 saw the beginning of the streak in which what Edmonds, WA native won 74 consecutive games on Jeopardy?", "gold": "Ken Jennings", "pred": "James Holzhauer", "elapsed": 0.25, "em": 0, "f1": 0.0}
+{"id": "bt_651", "question": "What is a dish of pickled herring fillets wrapped around an onion or gerkhin called", "gold": "Rollmops", "pred": "卷心菜卷或黄瓜卷的腌制鲱鱼片被称为卷鲱。", "elapsed": 0.32, "em": 0, "f1": 0.0}
+{"id": "jp_3082", "question": "\"Who wrote \"\"Leaves of Grass\"\"?\"", "gold": "Walt Whitman", "pred": "Walt Whitman", "elapsed": 0.14, "em": 1, "f1": 1.0}
+{"id": "qw_10032", "question": "What was the name of two tyrants who ruled Syracuse in the 2nd century BC?", "gold": "Dionysius", "pred": "Hieronymos and Hippokrates", "elapsed": 0.19, "em": 0, "f1": 0.0}
+{"id": "sfq_9902", "question": "\"Who wrote the 1993 Booker Prize winning novel \"\"Paddy Clarke Ha Ha Ha\"\"?\"", "gold": "Roddy Doyle", "pred": "Roddy Doyle", "elapsed": 0.25, "em": 1, "f1": 1.0}
+{"id": "qb_3093", "question": "Raclette, Tilsit and Sbrinz are all types of which foodstuff?", "gold": "Cheese", "pred": "Cheese", "elapsed": 0.25, "em": 1, "f1": 1.0}
+{"id": "odql_14620", "question": "What was the first name of the father of the Bronte sisters?", "gold": "PATRICK", "pred": "Patrick", "elapsed": 0.1, "em": 1, "f1": 1.0}
+{"id": "qw_1068", "question": "From which country was Fulgencio Batista ousted in 1959?", "gold": "Cuba", "pred": "Cuba", "elapsed": 0.22, "em": 1, "f1": 1.0}
+{"id": "sfq_12765", "question": "Who was housekeeper to Sherlock Holmes?", "gold": "Mrs Hudson", "pred": "Mrs. Hudson", "elapsed": 0.13, "em": 1, "f1": 1.0}
+{"id": "dpql_503", "question": "Where in Europe is the Attila Line a major divide?", "gold": "Cyprus", "pred": "Hungary", "elapsed": 0.12, "em": 0, "f1": 0.0}
+{"id": "qw_5765", "question": "\"In David Hockney's painting \"\"Mr and Mrs Clark and Percy\"\", what is Percy?\"", "gold": "Cat", "pred": "Cat", "elapsed": 0.14, "em": 1, "f1": 1.0}
+{"id": "sfq_9684", "question": "In Milton's 'Paradise Lost' what is the name of the Capital of Hell?", "gold": "Pandaemonium", "pred": "Pandemonium", "elapsed": 0.15, "em": 1, "f1": 1.0}
+{"id": "odql_6005", "question": "Which Greek philosopher is popularly known as 'The Laughing Philosopher' because of his scoffing nature?", "gold": "DEMOCRITUS", "pred": "Democritus", "elapsed": 0.27, "em": 1, "f1": 1.0}
+{"id": "sfq_13582", "question": "Which long-running British TV series, now disappeared from our screens, began as a 1983 one-off drama called Woodentop'?", "gold": "THE BILL", "pred": "Blackadder", "elapsed": 0.26, "em": 0, "f1": 0.0}
+{"id": "odql_2571", "question": "\"Which nation's record in the final of football's World Cup, reads \"\"played one - lost one\"\"?\"", "gold": "SWEDEN", "pred": "Sweden", "elapsed": 0.1, "em": 1, "f1": 1.0}
+{"id": "qf_3542", "question": "What was the name of Jimmy James' backing group?", "gold": "Vagabonds", "pred": "The Troggs", "elapsed": 0.13, "em": 0, "f1": 0.0}
+{"id": "tc_1442", "question": "Who's home runs record did Mark McGwire break in the 1998 season?", "gold": "Roger Maris", "pred": "Roger Maris", "elapsed": 0.17, "em": 1, "f1": 1.0}
+{"id": "sfq_18915", "question": "In which city are Argentine, Bel-Air, Bolivar, Liege, Rome and Stalingrad all found within a few miles of each other?", "gold": "Paris", "pred": "Los Angeles, California", "elapsed": 0.14, "em": 0, "f1": 0.0}
+{"id": "dpql_481", "question": "Which ‘P’ shot the arrow that killed Achilles by striking him on his heel?", "gold": "PARIS", "pred": "Paris", "elapsed": 0.1, "em": 1, "f1": 1.0}
+{"id": "dpql_4350", "question": "In which country could you drive along the 1700 kilometre Bruce Highway?", "gold": "Australia", "pred": "Australia", "elapsed": 0.1, "em": 1, "f1": 1.0}
+{"id": "dpql_3976", "question": "How was Moose the dog better known when he starred in a popular US sitcom?", "gold": "EDDIE", "pred": "Dogzilla", "elapsed": 0.22, "em": 0, "f1": 0.0}
+{"id": "dpql_3436", "question": "Which duo are associated with the classic comedy routine “Who’s on First”?", "gold": "Abbott and Costello", "pred": "Abbott and Costello", "elapsed": 0.15, "em": 1, "f1": 1.0}
+{"id": "qg_1206", "question": "May 8th, 1886 saw Civil War veteran and morphine addict John Pemberton sell what concoction at Jacob's Pharmacy in Atlanta, Ga?", "gold": "Coca-cola", "pred": "Coca-Cola", "elapsed": 0.28, "em": 1, "f1": 1.0}
+{"id": "tc_267", "question": "\"Who was the target of the failed \"\"Bomb Plot\"\" of 1944?\"", "gold": "Hitler", "pred": "Adolf Hitler", "elapsed": 0.15, "em": 1, "f1": 1.0}
+{"id": "qb_6447", "question": "Uncas is a principle character in which 1826 novel by James Fenimore Cooper?", "gold": "The Last of the Mohicans: A Narrative of 1757", "pred": "The Last of the Mohicans", "elapsed": 0.34, "em": 1, "f1": 1.0}
+{"id": "sfq_13224", "question": "Tybalt is a character in which of Shakespeare's plays?", "gold": "ROMEO AND JULIET", "pred": "Romeo and Juliet", "elapsed": 0.18, "em": 1, "f1": 1.0}
+{"id": "sfq_19632", "question": "What is the pen name of Jim Grant, the British author who writes stories about the former U.S. Military Police Major, Jack Reacher?", "gold": "LEE CHILD", "pred": "Lee Child", "elapsed": 0.23, "em": 1, "f1": 1.0}
+{"id": "qb_2823", "question": "Who always holds the title of the Supreme Governor of the Church of England?", "gold": "The British monarch", "pred": "The monarch of the United Kingdom", "elapsed": 0.16, "em": 1, "f1": 1.0}
+{"id": "odql_5443", "question": "Which character created by Dodie Smith always wore a black and white fur coat and drove a black and white car?", "gold": "'CRUELLA DE VIL'", "pred": "Caractacus Potts", "elapsed": 0.16, "em": 0, "f1": 0.0}
+{"id": "dpql_971", "question": "Amanuensis is an archaic word for what profession?", "gold": "Secretary", "pred": "Scribe", "elapsed": 0.1, "em": 0, "f1": 0.0}
+{"id": "sfq_1034", "question": "A merrythought is one of the popular names for which part of a bird?", "gold": "WISHBONE", "pred": "wishbone", "elapsed": 0.12, "em": 1, "f1": 1.0}
+{"id": "bb_2256", "question": "What is the Christian service or ceremony, named from Greek meaning grateful, commemorating the Last Supper?", "gold": "Eucharist", "pred": "Eucharist", "elapsed": 0.25, "em": 1, "f1": 1.0}
+{"id": "qw_6411", "question": "\"Where would one find \"\"Bachmann's bundle\"\"?\"", "gold": "The human heart", "pred": "Heart", "elapsed": 0.23, "em": 1, "f1": 1.0}
+{"id": "dpql_3631", "question": "Which Roman road led from Rome to Brindisi?", "gold": "Appian Way", "pred": "Via Appia", "elapsed": 0.18, "em": 1, "f1": 1.0}
+{"id": "odql_4495", "question": "To which order of monks does or did Pope Francis belong?", "gold": "Jesuits", "pred": "Franciscans", "elapsed": 0.17, "em": 0, "f1": 0.0}
+{"id": "qg_3523", "question": "Oct 5, 1902 saw the birth of Ray Kroc, who started which ubiquitous food source, the most successful fast food operation in the world?", "gold": "McDonalds", "pred": "McDonald's", "elapsed": 0.18, "em": 1, "f1": 1.0}
+{"id": "qf_1594", "question": "What was the first animated film to be nominated for an Oscar for best picture?", "gold": "Disney's 'Beauty and the Beast'", "pred": "\"Spirited Away\"", "elapsed": 0.33, "em": 0, "f1": 0.0}
+{"id": "dpql_3818", "question": "What is the largest city and capital of Madeira?", "gold": "Funchal", "pred": "Funchal", "elapsed": 0.28, "em": 1, "f1": 1.0}
+{"id": "qb_6291", "question": "What, generally, is the par on a 300 yard golf hole?", "gold": "Four", "pred": "4", "elapsed": 0.21, "em": 1, "f1": 1.0}
+{"id": "qz_4056", "question": "What is the name of the enzyme usually added to milk to coagulate it, to make \"curds and whey\"?", "gold": "Rennet.", "pred": "Rennet", "elapsed": 0.29, "em": 1, "f1": 1.0}

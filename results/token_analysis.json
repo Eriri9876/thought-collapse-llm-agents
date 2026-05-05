@@ -1,0 +1,366 @@
+{
+  "cells": {
+    "('7B', 'gsm8k', 'full')": {
+      "em": 0.02,
+      "avg_steps": 7.68,
+      "avg_total_tok": 2917.6,
+      "avg_thought_tok": 1192.7,
+      "n": 100
+    },
+    "('7B', 'gsm8k', 'none')": {
+      "em": 0.0,
+      "avg_steps": 7.93,
+      "avg_total_tok": 558.7,
+      "avg_thought_tok": 0.0,
+      "n": 100
+    },
+    "('7B', 'gsm8k', 'compressed')": {
+      "em": 0.0,
+      "avg_steps": 7.59,
+      "avg_total_tok": 929.1,
+      "avg_thought_tok": 78.9,
+      "n": 100
+    },
+    "('7B', 'hotpotqa', 'full')": {
+      "em": 0.06,
+      "avg_steps": 6.6,
+      "avg_total_tok": 1886.8,
+      "avg_thought_tok": 1010.6,
+      "n": 100
+    },
+    "('7B', 'hotpotqa', 'none')": {
+      "em": 0.0,
+      "avg_steps": 8.0,
+      "avg_total_tok": 55.7,
+      "avg_thought_tok": 0.0,
+      "n": 100
+    },
+    "('7B', 'hotpotqa', 'compressed')": {
+      "em": 0.06,
+      "avg_steps": 4.88,
+      "avg_total_tok": 720.5,
+      "avg_thought_tok": 145.7,
+      "n": 100
+    },
+    "('7B', 'webquestions', 'full')": {
+      "em": 0.1,
+      "avg_steps": 6.44,
+      "avg_total_tok": 1157.2,
+      "avg_thought_tok": 702.8,
+      "n": 100
+    },
+    "('7B', 'webquestions', 'none')": {
+      "em": 0.0,
+      "avg_steps": 8.0,
+      "avg_total_tok": 6.2,
+      "avg_thought_tok": 0.0,
+      "n": 100
+    },
+    "('7B', 'webquestions', 'compressed')": {
+      "em": 0.11,
+      "avg_steps": 4.07,
+      "avg_total_tok": 377.0,
+      "avg_thought_tok": 96.3,
+      "n": 100
+    },
+    "('14B', 'gsm8k', 'full')": {
+      "em": 0.65,
+      "avg_steps": 4.06,
+      "avg_total_tok": 411.6,
+      "avg_thought_tok": 242.8,
+      "n": 100
+    },
+    "('14B', 'gsm8k', 'none')": {
+      "em": 0.04,
+      "avg_steps": 7.78,
+      "avg_total_tok": 31.1,
+      "avg_thought_tok": 0.0,
+      "n": 100
+    },
+    "('14B', 'gsm8k', 'compressed')": {
+      "em": 0.11,
+      "avg_steps": 6.17,
+      "avg_total_tok": 42.0,
+      "avg_thought_tok": 23.1,
+      "n": 100
+    },
+    "('14B', 'hotpotqa', 'full')": {
+      "em": 0.2,
+      "avg_steps": 4.91,
+      "avg_total_tok": 194.8,
+      "avg_thought_tok": 137.9,
+      "n": 100
+    },
+    "('14B', 'hotpotqa', 'none')": {
+      "em": 0.07,
+      "avg_steps": 4.6,
+      "avg_total_tok": 39.5,
+      "avg_thought_tok": 0.0,
+      "n": 100
+    },
+    "('14B', 'hotpotqa', 'compressed')": {
+      "em": 0.07,
+      "avg_steps": 2.77,
+      "avg_total_tok": 38.0,
+      "avg_thought_tok": 17.2,
+      "n": 100
+    },
+    "('14B', 'webquestions', 'full')": {
+      "em": 0.09,
+      "avg_steps": 3.46,
+      "avg_total_tok": 117.2,
+      "avg_thought_tok": 75.6,
+      "n": 100
+    },
+    "('14B', 'webquestions', 'none')": {
+      "em": 0.01,
+      "avg_steps": 7.6,
+      "avg_total_tok": 19.5,
+      "avg_thought_tok": 0.0,
+      "n": 100
+    },
+    "('14B', 'webquestions', 'compressed')": {
+      "em": 0.09,
+      "avg_steps": 2.92,
+      "avg_total_tok": 30.7,
+      "avg_thought_tok": 14.6,
+      "n": 100
+    },
+    "('32B', 'gsm8k', 'full')": {
+      "em": 0.44,
+      "avg_steps": 5.69,
+      "avg_total_tok": 970.5,
+      "avg_thought_tok": 244.8,
+      "n": 100
+    },
+    "('32B', 'gsm8k', 'none')": {
+      "em": 0.25,
+      "avg_steps": 7.05,
+      "avg_total_tok": 80.7,
+      "avg_thought_tok": 0.4,
+      "n": 100
+    },
+    "('32B', 'gsm8k', 'compressed')": {
+      "em": 0.17,
+      "avg_steps": 7.2,
+      "avg_total_tok": 190.4,
+      "avg_thought_tok": 18.7,
+      "n": 100
+    },
+    "('32B', 'hotpotqa', 'full')": {
+      "em": 0.21,
+      "avg_steps": 4.36,
+      "avg_total_tok": 373.3,
+      "avg_thought_tok": 121.4,
+      "n": 100
+    },
+    "('32B', 'hotpotqa', 'none')": {
+      "em": 0.07,
+      "avg_steps": 3.87,
+      "avg_total_tok": 28.1,
+      "avg_thought_tok": 0.3,
+      "n": 100
+    },
+    "('32B', 'hotpotqa', 'compressed')": {
+      "em": 0.13,
+      "avg_steps": 5.53,
+      "avg_total_tok": 59.2,
+      "avg_thought_tok": 21.4,
+      "n": 100
+    },
+    "('32B', 'webquestions', 'full')": {
+      "em": 0.12,
+      "avg_steps": 3.29,
+      "avg_total_tok": 124.8,
+      "avg_thought_tok": 70.0,
+      "n": 100
+    },
+    "('32B', 'webquestions', 'none')": {
+      "em": 0.15,
+      "avg_steps": 3.18,
+      "avg_total_tok": 28.6,
+      "avg_thought_tok": 0.0,
+      "n": 100
+    },
+    "('32B', 'webquestions', 'compressed')": {
+      "em": 0.11,
+      "avg_steps": 4.67,
+      "avg_total_tok": 39.4,
+      "avg_thought_tok": 17.4,
+      "n": 100
+    },
+    "('V3', 'gsm8k', 'full')": {
+      "em": 0.96,
+      "avg_steps": 2.55,
+      "avg_total_tok": 164.7,
+      "avg_thought_tok": 132.9,
+      "n": 100
+    },
+    "('V3', 'gsm8k', 'none')": {
+      "em": 0.86,
+      "avg_steps": 4.18,
+      "avg_total_tok": 99.1,
+      "avg_thought_tok": 0.0,
+      "n": 100
+    },
+    "('V3', 'gsm8k', 'compressed')": {
+      "em": 0.94,
+      "avg_steps": 3.7,
+      "avg_total_tok": 136.9,
+      "avg_thought_tok": 26.2,
+      "n": 100
+    },
+    "('V3', 'hotpotqa', 'full')": {
+      "em": 0.32,
+      "avg_steps": 5.21,
+      "avg_total_tok": 268.9,
+      "avg_thought_tok": 188.6,
+      "n": 100
+    },
+    "('V3', 'hotpotqa', 'none')": {
+      "em": 0.17,
+      "avg_steps": 3.93,
+      "avg_total_tok": 36.1,
+      "avg_thought_tok": 0.0,
+      "n": 100
+    },
+    "('V3', 'hotpotqa', 'compressed')": {
+      "em": 0.25,
+      "avg_steps": 4.48,
+      "avg_total_tok": 72.5,
+      "avg_thought_tok": 35.3,
+      "n": 100
+    },
+    "('V3', 'webquestions', 'full')": {
+      "em": 0.1364,
+      "avg_steps": 3.43,
+      "avg_total_tok": 138.6,
+      "avg_thought_tok": 95.8,
+      "n": 88
+    },
+    "('V3', 'webquestions', 'none')": {
+      "em": 0.125,
+      "avg_steps": 3.76,
+      "avg_total_tok": 31.3,
+      "avg_thought_tok": 0.0,
+      "n": 88
+    },
+    "('V3', 'webquestions', 'compressed')": {
+      "em": 0.2045,
+      "avg_steps": 3.36,
+      "avg_total_tok": 47.4,
+      "avg_thought_tok": 22.5,
+      "n": 88
+    }
+  },
+  "pareto": [
+    {
+      "model": "7B",
+      "task": "gsm8k",
+      "overhead": 2358.8999999999996,
+      "gap": 0.02,
+      "efficiency": 0.0008,
+      "verdict": "Marginal gain",
+      "thought_tok": 1192.7
+    },
+    {
+      "model": "7B",
+      "task": "hotpotqa",
+      "overhead": 1831.1,
+      "gap": 0.06,
+      "efficiency": 0.0033,
+      "verdict": "Thought worthwhile",
+      "thought_tok": 1010.6
+    },
+    {
+      "model": "7B",
+      "task": "webquestions",
+      "overhead": 1151.0,
+      "gap": 0.1,
+      "efficiency": 0.0087,
+      "verdict": "Thought worthwhile",
+      "thought_tok": 702.8
+    },
+    {
+      "model": "14B",
+      "task": "gsm8k",
+      "overhead": 380.5,
+      "gap": 0.61,
+      "efficiency": 0.1603,
+      "verdict": "Thought worthwhile",
+      "thought_tok": 242.8
+    },
+    {
+      "model": "14B",
+      "task": "hotpotqa",
+      "overhead": 155.3,
+      "gap": 0.13,
+      "efficiency": 0.0837,
+      "verdict": "Thought worthwhile",
+      "thought_tok": 137.9
+    },
+    {
+      "model": "14B",
+      "task": "webquestions",
+      "overhead": 97.7,
+      "gap": 0.08,
+      "efficiency": 0.0819,
+      "verdict": "Thought worthwhile",
+      "thought_tok": 75.6
+    },
+    {
+      "model": "32B",
+      "task": "gsm8k",
+      "overhead": 889.8,
+      "gap": 0.19,
+      "efficiency": 0.0214,
+      "verdict": "Thought worthwhile",
+      "thought_tok": 244.8
+    },
+    {
+      "model": "32B",
+      "task": "hotpotqa",
+      "overhead": 345.2,
+      "gap": 0.14,
+      "efficiency": 0.0406,
+      "verdict": "Thought worthwhile",
+      "thought_tok": 121.4
+    },
+    {
+      "model": "32B",
+      "task": "webquestions",
+      "overhead": 96.19999999999999,
+      "gap": -0.03,
+      "efficiency": -0.0312,
+      "verdict": "Thought harmful",
+      "thought_tok": 70.0
+    },
+    {
+      "model": "V3",
+      "task": "gsm8k",
+      "overhead": 65.6,
+      "gap": 0.1,
+      "efficiency": 0.1524,
+      "verdict": "Thought worthwhile",
+      "thought_tok": 132.9
+    },
+    {
+      "model": "V3",
+      "task": "hotpotqa",
+      "overhead": 232.79999999999998,
+      "gap": 0.15,
+      "efficiency": 0.0644,
+      "verdict": "Thought worthwhile",
+      "thought_tok": 188.6
+    },
+    {
+      "model": "V3",
+      "task": "webquestions",
+      "overhead": 107.3,
+      "gap": 0.0114,
+      "efficiency": 0.0106,
+      "verdict": "Marginal gain",
+      "thought_tok": 95.8
+    }
+  ]
+}

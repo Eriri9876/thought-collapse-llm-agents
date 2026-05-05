@@ -1,0 +1,51 @@
+{
+  "task": "webquestions",
+  "model": "V3",
+  "n": 3,
+  "avg_lp_qt": 0.0,
+  "avg_lp_q": 0.0,
+  "avg_lp_t": 0.0,
+  "delta_q_vs_qt": 0.0,
+  "delta_t_vs_qt": 0.0,
+  "rows": [
+    {
+      "id": "http://www.freebase.com/view/en/meg_griffin",
+      "question": "who played meg in season 1 of family guy?",
+      "thought": "I need to find out who voiced the character Meg in the first season of Family Guy. I'll search for that information.",
+      "action_type": "search",
+      "action_input": "Meg voice actor Family Guy season 1",
+      "lp_qt": 0.0,
+      "lp_q": 0.0,
+      "lp_t": 0.0,
+      "action": "Action: search[Meg voice actor Family Guy season 1]",
+      "delta_q": 0.0,
+      "delta_t": 0.0
+    },
+    {
+      "id": "http://www.freebase.com/view/en/navajo_people",
+      "question": "what language do navajo people speak?",
+      "thought": "The question asks about the language spoken by the Navajo people. I know that the Navajo language is called Diné bizaad, but I should confirm this with a search to ensure accuracy.",
+      "action_type": "search",
+      "action_input": "Navajo language",
+      "lp_qt": 0.0,
+      "lp_q": 0.0,
+      "lp_t": 0.0,
+      "action": "Action: search[Navajo language]",
+      "delta_q": 0.0,
+      "delta_t": 0.0
+    },
+    {
+      "id": "http://www.freebase.com/view/en/william_shakespeare",
+      "question": "what influenced william shakespeare to start writing?",
+      "thought": "I need to find information about what influenced William Shakespeare to start writing. I'll search for reliable sources.",
+      "action_type": "search",
+      "action_input": "what influenced William Shakespeare to start writing",
+      "lp_qt": 0.0,
+      "lp_q": 0.0,
+      "lp_t": 0.0,
+      "action": "Action: search[what influenced William Shakespeare to start writing]",
+      "delta_q": 0.0,
+      "delta_t": 0.0
+    }
+  ]
+}

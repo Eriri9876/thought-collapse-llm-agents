@@ -1,0 +1,12 @@
+# Core dependencies for Thought Collapse in LLM Agents.
+# Tested on Python 3.10+.
+# Versions are pinned to lower bounds matching the environment the experiments
+# were run in. Newer minor versions should remain compatible.
+
+openai>=2.32          # API client for DeepSeek / SiliconFlow (OpenAI-compatible)
+requests>=2.32        # Wikipedia REST API tool
+python-dotenv>=1.0    # Load API keys from .env
+
+datasets>=4.0         # HuggingFace datasets: GSM8K, HotpotQA, WebQuestions, TriviaQA, MATH
+numpy>=2.0            # Bootstrap CI computation
+matplotlib>=3.8       # Figure 1 plotting

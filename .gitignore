@@ -1,0 +1,45 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets / local environment
+.env
+
+# IDE / tooling
+.idea/
+.claude/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Stdout / debug logs.
+# NOTE: experiment trajectories under logs/*.jsonl ARE tracked; this only filters .log files.
+*.log
+
+# Manual backup files
+*.bak
+
+# Paper sources (double-blind submission — not in the public repo)
+*.tex
+*.bib
+*.aux
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+*.pdf
+
+# Re-include the one figure that ships with the repo
+!figures/coverage_gap.pdf
+
+# Private planning / scratch documents
+PROPOSAL.md
+CONTEXT.md
+project.txt
+target.txt
+CONCLUSIONS.md
