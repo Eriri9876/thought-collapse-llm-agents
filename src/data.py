@@ -1,8 +1,22 @@
 from datasets import load_dataset
+import hashlib
 import random
 import re
 
 _cache = {}
+
+
+def _math_id(problem: str) -> str:
+    """Stable cross-process ID for a MATH-hard problem.
+
+    Earlier versions used ``f"math_{hash(problem) & 0xFFFFFF}"`` which
+    relies on Python's string ``hash()`` — randomised per process unless
+    ``PYTHONHASHSEED`` is fixed. That made cross-process joins (pageview
+    extractor vs probe_direct logs) silently fail with 0 matched rows.
+    SHA-256 is deterministic and yields the same ID in every Python run.
+    """
+    h = hashlib.sha256(problem.encode("utf-8")).hexdigest()
+    return f"math_{h[:8]}"
 
 
 def _load_hotpotqa():
@@ -139,7 +153,7 @@ def get_samples(n: int, seed: int = 42, dataset: str = "hotpotqa", hotpotqa_type
                 if plain is None:
                     continue
                 hard.append({
-                    "id":       f"math_{hash(item['problem']) & 0xFFFFFF}",
+                    "id":       _math_id(item["problem"]),
                     "question": item["problem"],
                     "answer":   plain,
                     "aliases":  [plain],

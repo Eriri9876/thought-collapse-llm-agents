@@ -4,6 +4,9 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Disk-backed LLM response cache (src/cache.py).
+.cache/
+
 # Secrets / local environment
 .env
 

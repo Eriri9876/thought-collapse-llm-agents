@@ -10,3 +10,12 @@ python-dotenv>=1.0    # Load API keys from .env
 datasets>=4.0         # HuggingFace datasets: GSM8K, HotpotQA, WebQuestions, TriviaQA, MATH
 numpy>=2.0            # Bootstrap CI computation
 matplotlib>=3.8       # Figure 1 plotting
+
+# ── coverage_signals branch additions (Exp 1) ────────────────────────────────
+diskcache>=5.6        # On-disk LLM response cache (src/cache.py).
+                      # Windows note: cache.py pins timeout=60; do NOT lower it.
+spacy>=3.7            # NER head-entity extraction (src/coverage_signals/ner.py).
+                      # After install, run: python -m spacy download en_core_web_sm
+scipy>=1.11           # Pearson / Spearman correlation between signals & EM.
+statsmodels>=0.14     # OrderedModel logit for Thought-Gap-sign target (Task 3).
+pandas>=2.0           # statsmodels dependency.
