@@ -37,9 +37,19 @@ PRICES_USD_PER_M: dict[str, tuple[float, float]] = {
     # Together AI Llama-3.1 Instruct-Turbo
     "meta-llama/Llama-3.1-8B-Instruct-Turbo":  (0.18, 0.18),
     "meta-llama/Llama-3.1-70B-Instruct-Turbo": (0.88, 0.88),
+
+    # OpenRouter Llama-3.1 (DeepInfra bf16 endpoint, verified 2026-05-09).
+    # 8B  : deepinfra/bf16  → $0.02 in / $0.05 out
+    # 70B : deepinfra/base  → $0.40 in / $0.40 out  (bf16; Turbo is fp8 — do not use)
+    "meta-llama/llama-3.1-8b-instruct":  (0.02, 0.05),
+    "meta-llama/llama-3.1-70b-instruct": (0.40, 0.40),
 }
 
 WARNING_THRESHOLDS_USD: tuple[float, ...] = (5.0, 10.0, 20.0)
+
+
+class BudgetExceeded(RuntimeError):
+    """Raised by :func:`record` when cumulative spend crosses the hard cap."""
 
 
 @dataclass
@@ -49,14 +59,44 @@ class _State:
     out_tokens: int = 0
     fired: set[float] = field(default_factory=set)
     unknown_models: set[str] = field(default_factory=set)
+    hard_cap_usd: float | None = None
     lock: threading.Lock = field(default_factory=threading.Lock)
 
 
 _state = _State()
 
+# Per-trace completion-token counter, used by ReAct to enforce
+# max_total_output_tokens. Thread-local so concurrent traces do not interfere.
+_run_counter = threading.local()
 
-def record(model: str, prompt_tokens: int, completion_tokens: int) -> None:
-    """Add a single API call to the running totals."""
+
+def reset_run_counter() -> None:
+    """Zero the per-trace completion-token counter for the current thread."""
+    _run_counter.completion_tokens = 0
+
+
+def add_run_completion_tokens(n: int) -> None:
+    """Add to the per-trace completion-token counter (called from llm.chat)."""
+    _run_counter.completion_tokens = getattr(_run_counter, "completion_tokens", 0) + n
+
+
+def get_run_completion_tokens() -> int:
+    """Return the per-trace completion-token total for the current thread."""
+    return getattr(_run_counter, "completion_tokens", 0)
+
+
+def set_hard_cap(usd: float | None) -> None:
+    """Set a cumulative-USD ceiling. Crossing it makes :func:`record` raise
+    :class:`BudgetExceeded`. Pass ``None`` to disable."""
+    with _state.lock:
+        _state.hard_cap_usd = usd
+
+
+def record(model: str, prompt_tokens: int, completion_tokens: int) -> float:
+    """Add a single API call to the running totals. Returns the USD delta."""
+    # Always update per-trace completion-token counter, even for unknown models.
+    add_run_completion_tokens(completion_tokens)
+
     prices = PRICES_USD_PER_M.get(model)
     delta = 0.0
     if prices is not None:
@@ -72,7 +112,7 @@ def record(model: str, prompt_tokens: int, completion_tokens: int) -> None:
                 _state.unknown_models.add(model)
                 print(f"[cost_tracker] WARNING: no price entry for {model!r}; "
                       f"tokens are tracked but USD is not")
-            return
+            return 0.0
 
         prev = _state.cost_usd
         _state.cost_usd += delta
@@ -83,6 +123,15 @@ def record(model: str, prompt_tokens: int, completion_tokens: int) -> None:
                 print(f"[cost_tracker] WARNING: cumulative spend crossed "
                       f"${thr:.0f} (now ${new:.4f}; "
                       f"in={_state.in_tokens:,} out={_state.out_tokens:,})")
+
+        cap = _state.hard_cap_usd
+        if cap is not None and new >= cap:
+            raise BudgetExceeded(
+                f"cumulative spend ${new:.4f} reached hard cap ${cap:.2f} "
+                f"(in={_state.in_tokens:,} out={_state.out_tokens:,})"
+            )
+
+    return delta
 
 
 def summary() -> dict:

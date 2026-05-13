@@ -1,0 +1,100 @@
+{"id": "sfq_2447", "question": "For what medical condition would a doctor administer an antipyretic?", "gold": "Fever", "pred": "Fever.", "elapsed": 1.73, "em": 1, "f1": 1.0}
+{"id": "qg_547", "question": "Kirkland Signature is the house brand of what retail giant?", "gold": "Costco", "pred": "Costco", "elapsed": 1.49, "em": 1, "f1": 1.0}
+{"id": "bb_6957", "question": "Lent (Latin Quadragesima) is traditionally a Christian religious fast of how many days?", "gold": "40", "pred": "40", "elapsed": 1.27, "em": 1, "f1": 1.0}
+{"id": "odql_12607", "question": "Prince Rupert of the Rhine, who fought in the Thirty Years’ War, was nephew of which English King, who made him Duke of Cumberland?", "gold": "CHARLES I", "pred": "Charles I", "elapsed": 1.16, "em": 1, "f1": 1.0}
+{"id": "qg_3411", "question": "What can be a medieval weapon, a spice, or a Jedi knight (or a pepper spray)", "gold": "Mace", "pred": "Mace", "elapsed": 1.25, "em": 1, "f1": 1.0}
+{"id": "qw_5160", "question": "What is the name for an argument presented in logical form, containing 2 premises and a conclusion?", "gold": "Syllogism", "pred": "Syllogism", "elapsed": 1.66, "em": 1, "f1": 1.0}
+{"id": "jp_2935", "question": "\"What event was the song \"\"Waka Waka\"\" written for?\"", "gold": "2010 World Cup", "pred": "The 2010 FIFA World Cup", "elapsed": 2.32, "em": 1, "f1": 1.0}
+{"id": "qw_4781", "question": "Which wonder of the ancient world was at Ephesus?", "gold": "Temple of Artemis", "pred": "The Temple of Artemis.", "elapsed": 4.05, "em": 1, "f1": 1.0}
+{"id": "odql_8192", "question": "In the English translations of the 'Asterix' comics, what is the name of the village leader, a middle-aged, obese man with red hair, pigtails and a huge moustache?", "gold": "'VITALSTATISTIX'", "pred": "Vitalstatistix", "elapsed": 2.4, "em": 1, "f1": 1.0}
+{"id": "qw_14436", "question": "\"Known in the USA as \"\"The March King\"\" he made his first recordings with Columbia Phonograph Company in 1890; what was his name?\"", "gold": "John Philip Sousa", "pred": "John Philip Sousa", "elapsed": 2.45, "em": 1, "f1": 1.0}
+{"id": "qg_1241", "question": "Approximately what percentage of an incandescent light bulb's energy is wasted as heat?", "gold": "90%", "pred": "About 90%", "elapsed": 3.38, "em": 0, "f1": 0.6667}
+{"id": "bb_4540", "question": "Famous for 'Die Welt als Wille und Vorstellung', Arthur Schopenhauer (1788-1860) was a German?", "gold": "Philosopher", "pred": "Philosopher", "elapsed": 2.42, "em": 1, "f1": 1.0}
+{"id": "odql_9905", "question": "In 1986, whilst facing England which West Indian batsman scored the fastest ever Test century in just 56 balls?", "gold": "VIV RICHARDS", "pred": "Vivian Richards", "elapsed": 3.31, "em": 1, "f1": 1.0}
+{"id": "qb_10292", "question": "Which comedian/actor played the Doctor Who monster Abzorbaloff, which appeared in the 2006 episode ‘Love and Monsters’?", "gold": "Peter Kay", "pred": "Peter Kay", "elapsed": 1.58, "em": 1, "f1": 1.0}
+{"id": "tb_294", "question": "What type of 'helpful' businesses operate on the basis of the Rochdale Principles that were formulated in 1844?", "gold": "Co-operatives", "pred": "Cooperatives", "elapsed": 1.21, "em": 1, "f1": 1.0}
+{"id": "odql_3814", "question": "In which race did Zola Budd and Mary Decker famously collide at the 1984 Olympics?", "gold": "3000 metres", "pred": "3000 meters", "elapsed": 1.82, "em": 1, "f1": 1.0}
+{"id": "bb_216", "question": "What is Nashville's famous university in Tennessee US, named after the shipping and railroad magnate nicknamed Commodore?", "gold": "Vanderbilt University", "pred": "Vanderbilt University", "elapsed": 1.68, "em": 1, "f1": 1.0}
+{"id": "odql_882", "question": "Which actor and producer married Anne Bancroft?", "gold": "MEL BROOKS", "pred": "Mel Brooks", "elapsed": 1.2, "em": 1, "f1": 1.0}
+{"id": "odql_1809", "question": "Which word can mean a unit of measurement of a small island?", "gold": "Inch", "pred": "Acre", "elapsed": 1.89, "em": 0, "f1": 0.0}
+{"id": "bt_2111", "question": "What is the smallest Canadian province", "gold": "Prince Edward Island", "pred": "Prince Edward Island", "elapsed": 1.83, "em": 1, "f1": 1.0}
+{"id": "sfq_12679", "question": "Which jockey, later famous in another sphere, rode Devon Loch in the 1956 Grand National?", "gold": "DICK FRANCIS", "pred": "Dick Francis", "elapsed": 2.61, "em": 1, "f1": 1.0}
+{"id": "qb_403", "question": "Apart from English, what is the official language of Canada?", "gold": "French", "pred": "French", "elapsed": 2.85, "em": 1, "f1": 1.0}
+{"id": "tc_2699", "question": "What was the nickname of the French singer Edith Piaf?", "gold": "The Little Sparrow", "pred": "La Môme Piaf", "elapsed": 3.49, "em": 0, "f1": 0.0}
+{"id": "bb_5131", "question": "Latin 'collum' refers to which part of the human body?", "gold": "Neck", "pred": "Neck", "elapsed": 1.43, "em": 1, "f1": 1.0}
+{"id": "qw_8802", "question": "Which of the continents is the smallest in area?", "gold": "Australia", "pred": "Australia", "elapsed": 1.51, "em": 1, "f1": 1.0}
+{"id": "wh_3928", "question": "\"Which North African food dish made of coarsely ground wheat takes it’s name from the Arabic word Kaskasa meaning \"\"To Pound\"\" ?\"", "gold": "COUSCOUS", "pred": "Couscous", "elapsed": 2.18, "em": 1, "f1": 1.0}
+{"id": "odql_5509", "question": "In which constellation is the star 'Betelguese'?", "gold": "ORION", "pred": "Orion", "elapsed": 1.82, "em": 1, "f1": 1.0}
+{"id": "bt_2248", "question": "In the Christian calendar what is the first day of Holy Week", "gold": "Palm Sunday", "pred": "Palm Sunday", "elapsed": 1.86, "em": 1, "f1": 1.0}
+{"id": "bt_307", "question": "Which river runs through The Grand Canyon", "gold": "Colorado", "pred": "Colorado River", "elapsed": 0.87, "em": 0, "f1": 0.6667}
+{"id": "wh_2493", "question": "What type of beverage does a barista prepare and serve ?", "gold": "COFFEE", "pred": "Coffee and other specialty drinks.", "elapsed": 1.51, "em": 0, "f1": 0.3333}
+{"id": "qz_5877", "question": "In dentistry, what is the name given to hardened dental plaque?", "gold": "TARTAR.", "pred": "Tartar", "elapsed": 1.49, "em": 1, "f1": 1.0}
+{"id": "qf_2590", "question": "Who wrote the novel Cider With Rosie?", "gold": "Laurie Lee", "pred": "Laurie Lee", "elapsed": 1.91, "em": 1, "f1": 1.0}
+{"id": "sfq_4770", "question": "Who wrote much of King George V's first Christmas broadcast, made in 1932?", "gold": "Rudyard Kipling", "pred": "Rudyard Kipling", "elapsed": 2.15, "em": 1, "f1": 1.0}
+{"id": "qf_1987", "question": "In a petrol engine what component mixes fuel and air?", "gold": "The carburettor", "pred": "Carburettor", "elapsed": 0.0, "em": 1, "f1": 1.0}
+{"id": "bb_1412", "question": "The Japanese musical instrument the shamisen (or samisen or sangen) has traditionally how many strings (the answer, in Japanese and the earlier Chinese, is in the name)?", "gold": "Three", "pred": "3", "elapsed": 1.59, "em": 1, "f1": 1.0}
+{"id": "sfq_11824", "question": "Common, Arctic and Sooty are all varieties of which bird?", "gold": "TERN", "pred": "Tern", "elapsed": 1.31, "em": 1, "f1": 1.0}
+{"id": "qw_16177", "question": "James A Michener wrote the stories upon which musical was based?", "gold": "South Pacific", "pred": "South Pacific", "elapsed": 1.81, "em": 1, "f1": 1.0}
+{"id": "bt_2435", "question": "In the 2015 MTV awards who was voted as the best male act", "gold": "Justin Bieber", "pred": "Ed Sheeran", "elapsed": 1.42, "em": 0, "f1": 0.0}
+{"id": "sfq_18352", "question": "\"The Jacques Brel song \"\"Le moribond\"\" (translation \"\"the dying man\"\") was a hit in English for Terry Jacks under what title?\"", "gold": "SEASONS IN THE SUN", "pred": "Seasons in the Sun", "elapsed": 2.32, "em": 1, "f1": 1.0}
+{"id": "tc_1622", "question": "What US sitcom was the first exported to Britain?", "gold": "Amos 'N' Andy", "pred": "I Love Lucy", "elapsed": 1.54, "em": 0, "f1": 0.0}
+{"id": "sfq_2764", "question": "What is the anatomical name for the upper jaw bone?", "gold": "Maxilla", "pred": "Maxilla", "elapsed": 1.61, "em": 1, "f1": 1.0}
+{"id": "bb_7966", "question": "Who released an album entitled The Six Wives of Henry VIII?", "gold": "Rick Wakeman", "pred": "Rick Wakeman", "elapsed": 2.92, "em": 1, "f1": 1.0}
+{"id": "wh_4290", "question": "What is the inscription on the George Cross ?", "gold": "FOR GALLANTRY", "pred": "\"For Gallantry\"", "elapsed": 2.38, "em": 1, "f1": 1.0}
+{"id": "sfq_12877", "question": "Arthur Seaton is the hero of which 1958 novel set in Nottingham?", "gold": "Saturday Night and Sunday Morning", "pred": "Saturday Night and Sunday Morning", "elapsed": 2.79, "em": 1, "f1": 1.0}
+{"id": "qw_10833", "question": "The legendary Hercules was said to have what quality?", "gold": "Strength", "pred": "Superhuman strength.", "elapsed": 2.3, "em": 0, "f1": 0.6667}
+{"id": "qz_1032", "question": "How many episodes of Prisoner: Cell Block H were made?", "gold": "692", "pred": "692", "elapsed": 1.15, "em": 1, "f1": 1.0}
+{"id": "wh_3999", "question": "Which English mechanical and civil engineer who died in 1859 was responsible for engineering the Great Western Railway and designing the Clifton Suspension Bridge in Bristol ?", "gold": "Isambard Kingdom BRUNEL", "pred": "Isambard Kingdom Brunel", "elapsed": 2.07, "em": 1, "f1": 1.0}
+{"id": "qb_738", "question": "Who invented the mercury thermometer in 1714?", "gold": "Gabriel Farenheit", "pred": "Daniel Gabriel Fahrenheit", "elapsed": 1.38, "em": 1, "f1": 1.0}
+{"id": "qz_2835", "question": "Who played King Arthur in the 1967 musical film Camelot?", "gold": "Richard Harris", "pred": "Richard Harris", "elapsed": 2.04, "em": 1, "f1": 1.0}
+{"id": "qb_3093", "question": "Raclette, Tilsit and Sbrinz are all types of which foodstuff?", "gold": "Cheese", "pred": "Cheese", "elapsed": 0.0, "em": 1, "f1": 1.0}
+{"id": "qw_7439", "question": "Which company was founded by Bill Gates and Paul Allen in Albuquerque, New Mexico, on 4 April 1975 to develop and sell BASIC interpreters for a new microcomputer, the Altair 8800?", "gold": "Microsoft", "pred": "Microsoft", "elapsed": 1.63, "em": 1, "f1": 1.0}
+{"id": "wh_3090", "question": "What was the name of the female that politician John Profumo had an affair with which ended his political career in 1963?", "gold": "CHRISTINE KEELER", "pred": "Christine Keeler", "elapsed": 1.91, "em": 1, "f1": 1.0}
+{"id": "qw_8192", "question": "\"In 2006 English politician George Galloway was widely quoted as saying that it would be \"\"morally justified if someone chose to assassinate \"\" whom?\"", "gold": "Tony Blair", "pred": "George W. Bush", "elapsed": 1.87, "em": 0, "f1": 0.0}
+{"id": "tc_304", "question": "Which 90s sci fi series with James Belushi was based on Bruce Wagner's comic strip of the same name?", "gold": "Wild Palms", "pred": "Wild Palms", "elapsed": 1.63, "em": 1, "f1": 1.0}
+{"id": "qb_9275", "question": "In humans, the medical condition prepatellar bursitis affects which part of the body?", "gold": "Knee", "pred": "The knee.", "elapsed": 1.87, "em": 1, "f1": 1.0}
+{"id": "bt_4517", "question": "Which river forms almost all the boundary between Devon and Cornwall", "gold": "Tamar", "pred": "The River Tamar", "elapsed": 1.35, "em": 0, "f1": 0.6667}
+{"id": "sfq_4226", "question": "What name did Josiah Wedgwood give to his factory near Hanley, Staffordshire?", "gold": "Etruria", "pred": "Etruria", "elapsed": 1.88, "em": 1, "f1": 1.0}
+{"id": "qw_6139", "question": "What genus of flowering plants, native to an area from Brazil to Peru to southern Argentina discovered in 1768 by French botanist Philibert Commeron, is a thorny, woody vine reaching from 1 to 12 metres tall by growing over other plants with hooked thorns tipped with a black, waxy substance?", "gold": "Bougainvillea", "pred": "Passiflora", "elapsed": 1.8, "em": 0, "f1": 0.0}
+{"id": "bb_92", "question": "FIDE (Federation Internationale Des Echecs) is the world federation of which activity?", "gold": "Chess", "pred": "Chess", "elapsed": 0.68, "em": 1, "f1": 1.0}
+{"id": "bb_3250", "question": "Lysergic Acid Diethylamide is better known by what abbreviated name?", "gold": "LSD", "pred": "LSD", "elapsed": 1.22, "em": 1, "f1": 1.0}
+{"id": "sfq_17299", "question": "\"What does the Latin phrase \"\"primus inter pares \"\" mean?\"", "gold": "First Amongst Equals", "pred": "\"First among equals\"", "elapsed": 1.78, "em": 1, "f1": 1.0}
+{"id": "qb_8871", "question": "‘Be the best’ is the official motto of which of the British armed forces?", "gold": "Army", "pred": "The Parachute Regiment", "elapsed": 2.11, "em": 0, "f1": 0.0}
+{"id": "sfq_2623", "question": "In which country is the Sierra Madre mountain range, with its highest peak at Cerro Mohinora?", "gold": "Mexico", "pred": "Mexico", "elapsed": 1.32, "em": 1, "f1": 1.0}
+{"id": "qb_727", "question": "Who does Emilio Estevez play in the 1988 film ‘Young Guns’?", "gold": "Billy the Kid", "pred": "Billy the Kid", "elapsed": 1.51, "em": 1, "f1": 1.0}
+{"id": "odql_9667", "question": "Who in the Muslim faith proclaims the hours of prayer from a minaret?", "gold": "THE MUEZZIN", "pred": "Muezzin", "elapsed": 2.2, "em": 1, "f1": 1.0}
+{"id": "qb_1647", "question": "Steve Martin and which other actor hosted the 2010 Academy Awards?", "gold": "Alec Baldwin", "pred": "Alec Baldwin", "elapsed": 1.82, "em": 1, "f1": 1.0}
+{"id": "dpql_4668", "question": "What name was given to areas of England under Viking control?", "gold": "Danelaw", "pred": "The Danelaw", "elapsed": 1.58, "em": 1, "f1": 1.0}
+{"id": "qb_8808", "question": "The 2009 film ‘The Hangover’ is set in which city?", "gold": "Las Vegas", "pred": "Las Vegas", "elapsed": 1.6, "em": 1, "f1": 1.0}
+{"id": "sfq_6995", "question": "Who succeeded Nikita Kruschev as leader of the Soviet Union in1964?", "gold": "ALEXEI KOSYGIN", "pred": "Leonid Brezhnev", "elapsed": 1.87, "em": 0, "f1": 0.0}
+{"id": "qw_13977", "question": "What is kept in the sump of a motor car engine?", "gold": "Oil", "pred": "Engine oil", "elapsed": 1.57, "em": 0, "f1": 0.6667}
+{"id": "wh_810", "question": "Daniel Casey played the role of Detective Sergeant Troy in which TV series?", "gold": "MIDSOMER MURDERS", "pred": "Midsomer Murders", "elapsed": 2.15, "em": 1, "f1": 1.0}
+{"id": "sfq_6589", "question": "Which large American bird (Gymnogyps) has been reintroduced to the wild after breeding in captivity in 1991?", "gold": "(California) Condor", "pred": "California Condor", "elapsed": 1.94, "em": 1, "f1": 1.0}
+{"id": "odql_11176", "question": "When sending an email you are given the option to 'Add Cc' or 'Add Bcc'. For which word is the 'B' the initial letter?", "gold": "BLIND (carbon copy)", "pred": "Blind", "elapsed": 1.91, "em": 0, "f1": 0.5}
+{"id": "qb_2909", "question": "The 1932 film ‘The Mask of Fu Manchu’ revolves around Fu Manchu’s quest for the sword and mask of which historical figure?", "gold": "Genghis Khan", "pred": "Genghis Khan", "elapsed": 2.13, "em": 1, "f1": 1.0}
+{"id": "qw_4590", "question": "After watching US president Barack Obama giving a speech, David Letterman commented that it was nice to have a president who could pronounce which word?", "gold": "Nuclear", "pred": "Nuclear", "elapsed": 0.0, "em": 1, "f1": 1.0}
+{"id": "qb_8785", "question": "Who did Germany defeat to win the 1990 FIFA World Cup?", "gold": "Argentina", "pred": "Argentina", "elapsed": 1.13, "em": 1, "f1": 1.0}
+{"id": "bb_3778", "question": "In music theory what is the relative minor chord of C major?", "gold": "A minor", "pred": "A minor", "elapsed": 1.4, "em": 1, "f1": 1.0}
+{"id": "jp_1238", "question": "\"Who invented the term \"\"Oedipus complex\"\"?\"", "gold": "Sigmund Freud", "pred": "Sigmund Freud", "elapsed": 2.14, "em": 1, "f1": 1.0}
+{"id": "odql_4288", "question": "What is the equivalent rank in the British Army of the German rank Oberst?", "gold": "COLONEL", "pred": "Colonel", "elapsed": 1.9, "em": 1, "f1": 1.0}
+{"id": "bb_3440", "question": "The name Benedict, as used by popes, etc., is from the Latin meaning?", "gold": "The Blessed", "pred": "Blessed", "elapsed": 1.97, "em": 1, "f1": 1.0}
+{"id": "sfq_4719", "question": "What was Queen Victoria's first Christian name?", "gold": "Alexandrina", "pred": "Alexandrina", "elapsed": 1.4, "em": 1, "f1": 1.0}
+{"id": "qz_4056", "question": "What is the name of the enzyme usually added to milk to coagulate it, to make \"curds and whey\"?", "gold": "Rennet.", "pred": "Rennet", "elapsed": 0.0, "em": 1, "f1": 1.0}
+{"id": "qw_6502", "question": "The island of Taiwan is off the coast of where?", "gold": "China", "pred": "China", "elapsed": 1.28, "em": 1, "f1": 1.0}
+{"id": "odql_10502", "question": "Of which European country did Gro Harlem Bruntland become the first female Prime Minister in 1981, serving three terms between 1981 and 1996?", "gold": "NORWAY", "pred": "Norway", "elapsed": 1.17, "em": 1, "f1": 1.0}
+{"id": "qb_417", "question": "What type of creature is a bufflehead?", "gold": "Duck", "pred": "A duck.", "elapsed": 1.25, "em": 1, "f1": 1.0}
+{"id": "qb_4016", "question": "Who played Beverley Hills hairdresser George Roundy in the 1975 film ‘Shampoo’?", "gold": "Warren Beatty", "pred": "Warren Beatty", "elapsed": 1.87, "em": 1, "f1": 1.0}
+{"id": "bb_196", "question": "A sequence of numbers beginning 0, 1, in which each number is the sum of the previous two numbers is named after what Italian mathematician who devised the system?", "gold": "Fibonacci", "pred": "Leonardo Fibonacci", "elapsed": 1.22, "em": 1, "f1": 1.0}
+{"id": "odql_9334", "question": "Who in 1980, aged 14, from Bolton, England, became the youngest International Master in the history of chess?", "gold": "NIGEL SHORT", "pred": "Nigel Short", "elapsed": 1.87, "em": 1, "f1": 1.0}
+{"id": "bt_2025", "question": "What is the official animal of Canada", "gold": "Beaver", "pred": "The beaver.", "elapsed": 2.03, "em": 1, "f1": 1.0}
+{"id": "jp_1476", "question": "\"What movie featured the song \"\"Moon River\"\"?\"", "gold": "Breakfast at Tiffany's", "pred": "Breakfast at Tiffany's", "elapsed": 2.29, "em": 1, "f1": 1.0}
+{"id": "qb_712", "question": "In January 1957, Russell Endean became the first batsman to be dismissed from a test cricket match for doing what?", "gold": "Handling the ball", "pred": "Being handled the ball.", "elapsed": 2.28, "em": 0, "f1": 0.4}
+{"id": "dpql_4167", "question": "What was the title of Fun Lovin’ Criminals’ 1996 song that nearly made the Top 20?", "gold": "SCOOBY SNACKS", "pred": "Scooby Snacks", "elapsed": 1.5, "em": 1, "f1": 1.0}
+{"id": "dpql_486", "question": "In the film ‘High Noon’, who has sworn to kill Will Kane (Gary Cooper)?", "gold": "FRANK MILLER", "pred": "Frank Miller", "elapsed": 1.02, "em": 1, "f1": 1.0}
+{"id": "qw_6802", "question": "The rings of which planet were first detected in 1980 but only identified in 1989 by the Voyager 2 spacecraft? .", "gold": "Neptune", "pred": "Neptune", "elapsed": 1.02, "em": 1, "f1": 1.0}
+{"id": "tc_1348", "question": "In the late 60s Owen Finlay MacLaren pioneered what useful item for parents of small chldren?", "gold": "Baby Buggy", "pred": "The collapsible baby stroller.", "elapsed": 2.05, "em": 0, "f1": 0.4}
+{"id": "bt_3257", "question": "Who played Doctor Christmas Jones in the Bond film The World is Not enough", "gold": "Denise Richards", "pred": "Denise Richards", "elapsed": 2.42, "em": 1, "f1": 1.0}
+{"id": "sfq_2143", "question": "Which of Henry VIII's wives died of septicaemia, just twelve days after giving birth?", "gold": "JANE SEYMOUR", "pred": "Jane Seymour", "elapsed": 1.74, "em": 1, "f1": 1.0}
+{"id": "bb_7608", "question": "Which student of Socrates, and teacher of Aristole, wrote Republic?", "gold": "Plato", "pred": "Plato", "elapsed": 2.09, "em": 1, "f1": 1.0}
+{"id": "qf_2320", "question": "\"\"\"When I Fall in Love\"\" by Nat King Cole featured in which 1986 film?\"", "gold": "Mona Lisa", "pred": "Top Gun", "elapsed": 2.16, "em": 0, "f1": 0.0}
+{"id": "qw_13422", "question": "Who, in 1960, made international news for banging his shoe on a table in the UN?", "gold": "Nikita Khruschev", "pred": "Nikita Khrushchev", "elapsed": 2.47, "em": 1, "f1": 1.0}

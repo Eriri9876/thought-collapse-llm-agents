@@ -29,9 +29,11 @@ sys.stdout.reconfigure(encoding="utf-8")
 LOG_DIR = Path("logs")
 
 MODELS = {
-    "14B": "Qwen/Qwen2.5-14B-Instruct",
-    "32B": "Qwen/Qwen2.5-32B-Instruct",
-    "V3":  "deepseek-chat",
+    "14B":  "Qwen/Qwen2.5-14B-Instruct",
+    "32B":  "Qwen/Qwen2.5-32B-Instruct",
+    "V3":   "deepseek-chat",
+    "L8B":  "meta-llama/llama-3.1-8b-instruct",
+    "L70B": "meta-llama/llama-3.1-70b-instruct",
 }
 
 DIRECT_SYSTEM = (

@@ -1,0 +1,100 @@
+{"id": "qw_11772", "question": "Christmas Island is administered by which country?", "gold": "Australia", "pred": "Australia", "elapsed": 1.77, "em": 1, "f1": 1.0}
+{"id": "sfq_22421", "question": "Who was the last Briton to win the Nobel Prize for Literature?", "gold": "Doris Lessing", "pred": "Kazuo Ishiguro", "elapsed": 3.48, "em": 0, "f1": 0.0}
+{"id": "qb_9208", "question": "What is the name of the fictional motor racing circuit in the children’s television series ‘Roary the Racing Car’?", "gold": "Silver Hatch", "pred": "Silver Hatch", "elapsed": 2.33, "em": 1, "f1": 1.0}
+{"id": "dpql_1557", "question": "What coin of the realm ceased to be legal tender in Britain at the end of 1960?", "gold": "FARTHING", "pred": "The farthing", "elapsed": 2.74, "em": 1, "f1": 1.0}
+{"id": "sfq_17764", "question": "If you landed at 'Santa Catarina Airport on which Island would you be in?", "gold": "MADEIRA", "pred": "Funchal, Madeira", "elapsed": 1.93, "em": 0, "f1": 0.6667}
+{"id": "qb_1009", "question": "Which tennis player was known as the Rockhampton Rocket?", "gold": "Rod Laver", "pred": "Rod Laver", "elapsed": 2.07, "em": 1, "f1": 1.0}
+{"id": "odql_8845", "question": "What is the profession of 'Paddy Kirk' in 'Emmerdale'?", "gold": "VET", "pred": "Vicar", "elapsed": 1.79, "em": 0, "f1": 0.0}
+{"id": "qb_9445", "question": "The Paragons originally recorded which 1980 hit single by Blondie?", "gold": "The Tide is High", "pred": "The Tide is High", "elapsed": 2.12, "em": 0, "f1": 0.0}
+{"id": "sfq_22100", "question": "Who is the presenter of the TV series The School of Hard Sums?", "gold": "DARA O'BRIAIN", "pred": "Dara Ó Briain", "elapsed": 2.04, "em": 1, "f1": 1.0}
+{"id": "qw_4035", "question": "Which English electronic dance music duo was made up of Neil Tennant and Chris Lowe?", "gold": "Pet Shop Boys", "pred": "Pet Shop Boys", "elapsed": 0.96, "em": 1, "f1": 1.0}
+{"id": "odql_5063", "question": "In Greek myth, who was the beautiful youth beloved of Aphrodite, who died of a hunting wound inflicted by a wild boar?", "gold": "ADONIS", "pred": "Adonis", "elapsed": 1.86, "em": 0, "f1": 0.0}
+{"id": "odql_6887", "question": "Which cocktail comprises Tequila, Lime or Lemon juice, and Orange-flavoured liqueur?", "gold": "MARGARITA", "pred": "Margarita", "elapsed": 3.12, "em": 1, "f1": 1.0}
+{"id": "sfq_19285", "question": "How many basic positions are there in classical ballet?", "gold": "Five", "pred": "5", "elapsed": 1.66, "em": 1, "f1": 1.0}
+{"id": "tb_29", "question": "A tourist attraction near Alliance, Nebraska created by Jim Reinders using vintage cars is styled after what monument?", "gold": "Stonehenge", "pred": "Carhenge, styled after Stonehenge", "elapsed": 2.43, "em": 0, "f1": 0.4}
+{"id": "jp_3226", "question": "\"On what \"\"railroad\"\" was Harriet Tubman a conductor?\"", "gold": "Underground Railroad", "pred": "The Underground Railroad", "elapsed": 1.8, "em": 1, "f1": 1.0}
+{"id": "bb_1464", "question": "What colour/color is Mr Bump in Hargreaves' Mr Men series of children's cartoon books?", "gold": "Blue", "pred": "Blue", "elapsed": 1.5, "em": 1, "f1": 1.0}
+{"id": "sfq_12309", "question": "Which canal links the Ionian and Aegean seas?", "gold": "CORINTH", "pred": "The Corinth Canal", "elapsed": 1.99, "em": 0, "f1": 0.6667}
+{"id": "sfq_4713", "question": "Which character did Felicity Kendall play in 'The Good Life'? (Christian name and surname required)", "gold": "Barbara Good", "pred": "Barbara Good.", "elapsed": 1.09, "em": 1, "f1": 1.0}
+{"id": "qw_8407", "question": "Actor Omar Sharif is one of the world's leading players of which game?", "gold": "Bridge", "pred": "Bridge", "elapsed": 0.69, "em": 1, "f1": 1.0}
+{"id": "sfq_9024", "question": "In John Bunyan's Pilgrim's Progress, where did the Giant Despair live?", "gold": "DOUBTING CASTLE", "pred": "Doubting Castle", "elapsed": 0.74, "em": 1, "f1": 1.0}
+{"id": "qw_1155", "question": "Which seabird that ranges widely in the Southern Ocean and the North Pacific has the largest wingspan of any existing birds?", "gold": "Albatross", "pred": "Wandering albatross", "elapsed": 2.55, "em": 0, "f1": 0.6667}
+{"id": "jp_4067", "question": "What movie had a sexy, supernatural pottery scene?", "gold": "Ghost", "pred": "Ghost (1990)", "elapsed": 1.96, "em": 0, "f1": 0.6667}
+{"id": "odql_8180", "question": "'Cosy In The Rocket', by the British electronic band 'Psapp' (pron. sap) is the theme tune to which American drama series?", "gold": "'GREY'S ANATOMY'", "pred": "Grey's Anatomy", "elapsed": 1.97, "em": 1, "f1": 1.0}
+{"id": "sfq_8642", "question": "\"According to the song lyrics where can \"\"you check out any time you like, but you can never leave\"\"?\"", "gold": "HOTEL CALIFORNIA", "pred": "The Hotel California", "elapsed": 1.65, "em": 1, "f1": 1.0}
+{"id": "bb_5330", "question": "The Erythraean Sea, lying between Africa and Asia is more commonly called the (What?) Sea?", "gold": "Red Sea", "pred": "Red Sea", "elapsed": 1.86, "em": 1, "f1": 1.0}
+{"id": "bb_7955", "question": "By what name was world champion boxer Walker Smith better known?", "gold": "Sugar Ray Robinson", "pred": "Sugar Ray Robinson", "elapsed": 2.66, "em": 1, "f1": 1.0}
+{"id": "qw_14324", "question": "What part of the body produces insulin?", "gold": "Pancreas", "pred": "The pancreas.", "elapsed": 1.47, "em": 1, "f1": 1.0}
+{"id": "bb_2321", "question": "UK 1980s prime minister Margaret Thatcher's nickname was the '(What?) Lady'?", "gold": "Iron", "pred": "Iron", "elapsed": 1.09, "em": 0, "f1": 0.0}
+{"id": "sfq_16690", "question": "The Song of Simeon canticle is also known by which Latin name?", "gold": "Nunc Dimittis", "pred": "Nunc Dimittis", "elapsed": 1.19, "em": 1, "f1": 1.0}
+{"id": "sfq_20377", "question": "What nationality was the botanist Carolus Linnaeus?", "gold": "Swedish", "pred": "Swedish", "elapsed": 1.38, "em": 1, "f1": 1.0}
+{"id": "qb_3577", "question": "Coleopterology is the study of which insects?", "gold": "Beetles", "pred": "Beetles", "elapsed": 2.08, "em": 1, "f1": 1.0}
+{"id": "dpql_98", "question": "Which cigarette manufacturer used to boast of its tobacco ‘It’s Toasted’?", "gold": "Lucky Strike", "pred": "Lucky Strike", "elapsed": 2.92, "em": 1, "f1": 1.0}
+{"id": "sfq_14830", "question": "What is the trophy awarded to the women's world team champions in badminton?", "gold": "UBER CUP", "pred": "Uber Cup", "elapsed": 2.51, "em": 1, "f1": 1.0}
+{"id": "wh_430", "question": "\"The opera \"\"Duke Bluebeard's Castle\"\" and the ballet \"\"The Wooden Prince\"\" are the works of which composer?\"", "gold": "BARTOK", "pred": "Béla Bartók", "elapsed": 1.35, "em": 1, "f1": 1.0}
+{"id": "wh_3819", "question": "Which country was the birthplace of Henry V111’s first wife Catherine Of Aragon ?", "gold": "SPAIN", "pred": "Spain", "elapsed": 0.62, "em": 1, "f1": 1.0}
+{"id": "qb_7640", "question": "‘La Marcha Real’ (The Royal march) is the national anthem of which country?", "gold": "Spain", "pred": "Spain", "elapsed": 1.03, "em": 1, "f1": 1.0}
+{"id": "sfq_15185", "question": "\"What name is given to the maxim \"\"employees tend to rise to their level of incompetence.\"\"?\"", "gold": "Peter Principle", "pred": "The Peter Principle", "elapsed": 1.22, "em": 1, "f1": 1.0}
+{"id": "dpql_768", "question": "What was the name of the old Waddington’s game based on newspapers?", "gold": "Scoop", "pred": "Scoop", "elapsed": 1.68, "em": 1, "f1": 1.0}
+{"id": "bb_1426", "question": "What is solid carbon dioxide commonly called?", "gold": "Dry ice", "pred": "Dry ice", "elapsed": 0.9, "em": 1, "f1": 1.0}
+{"id": "sfq_10967", "question": "Which is the only country on mainland Europe to be in the same time zone as the UK?", "gold": "Portugal", "pred": "Ireland", "elapsed": 1.05, "em": 0, "f1": 0.0}
+{"id": "wh_4111", "question": "Which Scottish actor played the butler Hudson in the original series of ITV's Upstairs, Downstairs ?", "gold": "GORDON JACKSON", "pred": "Gordon Jackson", "elapsed": 2.1, "em": 1, "f1": 1.0}
+{"id": "odql_8493", "question": "'Lassa Fever' was first detected in 1969. In which countryis Lassa?", "gold": "NIGERIA", "pred": "Nigeria", "elapsed": 1.83, "em": 1, "f1": 1.0}
+{"id": "qg_1343", "question": "Masu, Chum, and Coho are all types of what?", "gold": "Salmon", "pred": "Salmon", "elapsed": 1.84, "em": 1, "f1": 1.0}
+{"id": "jp_2518", "question": "What is the number 17 in binary?", "gold": "10001", "pred": "10001", "elapsed": 0.71, "em": 1, "f1": 1.0}
+{"id": "sfq_18384", "question": "Who created the fictional special agent Will Trent?", "gold": "KARIN SLAUGHTER", "pred": "Karin Slaughter", "elapsed": 0.76, "em": 1, "f1": 1.0}
+{"id": "qw_14177", "question": "The writer Tolstoy fundraised for, and donated the proceeds from some of his writing towards, helping the practitioners of what religious movement?", "gold": "Doukhobors", "pred": "The Doukhobors.", "elapsed": 0.94, "em": 1, "f1": 1.0}
+{"id": "odql_1001", "question": "Who together with Vince Clarke, formed the pop duo 'Yazoo'?", "gold": "ALISON MOYET", "pred": "Alison Moyet", "elapsed": 1.33, "em": 1, "f1": 1.0}
+{"id": "bb_6877", "question": "Ichthyology is a branch of zoology concerning which creatures?", "gold": "Fish", "pred": "Fish", "elapsed": 1.36, "em": 1, "f1": 1.0}
+{"id": "sfq_2723", "question": "Which shipyard built the 'Titanic'?", "gold": "Harland & Wolff", "pred": "Harland and Wolff", "elapsed": 1.85, "em": 1, "f1": 1.0}
+{"id": "sfq_4771", "question": "Prince Calef is the male-lead in which Puccini opera?", "gold": "Turandot", "pred": "Turandot", "elapsed": 1.58, "em": 1, "f1": 1.0}
+{"id": "bb_841", "question": "What is the Japanese martial art, similar to judo, which uses grappling, throws, and non-resistance, to debilitate opponents?", "gold": "Aikido", "pred": "Aikido", "elapsed": 1.36, "em": 1, "f1": 1.0}
+{"id": "odql_11994", "question": "In which year in the 1930's were Bonnie and Clyde killed?", "gold": "1934", "pred": "1934", "elapsed": 1.41, "em": 1, "f1": 1.0}
+{"id": "sfq_9645", "question": "Who judged Aphrodite more beautiful than Hera or Athena?", "gold": "Paris", "pred": "Paris", "elapsed": 1.51, "em": 1, "f1": 1.0}
+{"id": "qb_9992", "question": "In the George Orwell novel ‘Animal Farm’ who is the owner of Foxwood Farm?", "gold": "Mr Pilkington", "pred": "Mr. Pilkington", "elapsed": 2.34, "em": 1, "f1": 1.0}
+{"id": "qb_8014", "question": "Rapunzel, Mother Gothel and Paulo are all characters in which 2010 animated film?", "gold": "Tangled", "pred": "Tangled", "elapsed": 2.24, "em": 1, "f1": 1.0}
+{"id": "tc_1254", "question": "Marc Dutroux hit the headlines over a 'house of horrors' in which country?", "gold": "Belgium", "pred": "Belgium", "elapsed": 1.74, "em": 1, "f1": 1.0}
+{"id": "odql_4333", "question": "What is the name of the hybrid dog, or designer breed, which is a cross of a Labrador and a Poodle?", "gold": "LABRADOODLE", "pred": "Labradoodle", "elapsed": 1.91, "em": 1, "f1": 1.0}
+{"id": "sfq_7287", "question": "Who, in 1936, painted a portrait of Mae West in which her face is also a furnished room?", "gold": "(Salvador) Dali", "pred": "Edward Hopper", "elapsed": 1.8, "em": 0, "f1": 0.0}
+{"id": "bb_5173", "question": "Messina, founded by ancient Greeks, site of a 1908 seismic disaster, is the main port of which island?", "gold": "Sicily", "pred": "Sicily", "elapsed": 1.41, "em": 1, "f1": 1.0}
+{"id": "qw_6952", "question": "Ivan the Terrible was a czar of what country?", "gold": "Russia", "pred": "Russia", "elapsed": 0.68, "em": 1, "f1": 1.0}
+{"id": "sfq_8762", "question": "In Camberwick Green on Children's TV who was the commander of Pippin Fort?", "gold": "CAPTAIN SNORT", "pred": "Captain Snort", "elapsed": 0.92, "em": 1, "f1": 1.0}
+{"id": "qw_4910", "question": "What was the first name of de Gaulle, the first President of French Fifth Republic from 1959 to 1969?", "gold": "Charles", "pred": "Charles", "elapsed": 0.66, "em": 1, "f1": 1.0}
+{"id": "qg_2077", "question": "Of what modern country is Sarajevo the captial of?", "gold": "Bosnia and Herzegovina", "pred": "Bosnia and Herzegovina", "elapsed": 1.16, "em": 1, "f1": 1.0}
+{"id": "odql_8598", "question": "Who played the roles of 'Verbal Kint' and 'Keyser Soze' in the film 'The Usual Suspects'?", "gold": "KEVIN SPACEY", "pred": "Kevin Spacey", "elapsed": 1.59, "em": 1, "f1": 1.0}
+{"id": "sfq_23246", "question": "Which racecourse hosts the Midlands Grand National in March each year?", "gold": "UTTOXETER", "pred": "Uttoxeter", "elapsed": 2.16, "em": 1, "f1": 1.0}
+{"id": "bb_6256", "question": "Name the last US president to meet the leader of Cuba before Barack Obama did in 2015?", "gold": "Eisenhower", "pred": "Jimmy Carter", "elapsed": 1.77, "em": 0, "f1": 0.0}
+{"id": "sfq_22405", "question": "The Isle of Capri is close to which Italian resort?", "gold": "Sorrento", "pred": "Sorrento", "elapsed": 2.0, "em": 1, "f1": 1.0}
+{"id": "odql_48", "question": "\"Deceased wrestler 'Leon Aras' was the voice of the \"\"Tetley Tea Folk\"\", by what more familiar name was he known?\"", "gold": "BRIAN GLOVER", "pred": "Big Daddy", "elapsed": 2.07, "em": 0, "f1": 0.0}
+{"id": "odql_4941", "question": "The novels 'Dead Heat', 'Silks' and 'Even Money' were written by Dick Francis and his younger son. What is his son's first name?", "gold": "FELIX", "pred": "Felix", "elapsed": 1.19, "em": 1, "f1": 1.0}
+{"id": "qb_2483", "question": "Who wrote the play ‘The Iceman Cometh’?", "gold": "Eugene O’Neill", "pred": "Eugene O'Neill", "elapsed": 1.86, "em": 1, "f1": 1.0}
+{"id": "sfq_18918", "question": "The River Durance flows into the Rhone near to which French town or city?", "gold": "Avignon", "pred": "Avignon", "elapsed": 1.05, "em": 1, "f1": 1.0}
+{"id": "qw_8478", "question": "In 2006 Monty Panesar became the first person of what religion to play test cricket for England?", "gold": "Sikh", "pred": "Sikh", "elapsed": 1.57, "em": 1, "f1": 1.0}
+{"id": "qb_2869", "question": "In the novel ‘Jane Eyre’ by Charlotte Bronte, what is the name of Mr Rochester’s first wife?", "gold": "Bertha Mason", "pred": "Bertha Mason", "elapsed": 1.78, "em": 1, "f1": 1.0}
+{"id": "qw_4590", "question": "After watching US president Barack Obama giving a speech, David Letterman commented that it was nice to have a president who could pronounce which word?", "gold": "Nuclear", "pred": "Nuclear", "elapsed": 1.74, "em": 1, "f1": 1.0}
+{"id": "odql_2197", "question": "In which country would you find the wine-producing region known as 'Casablanca Valley'?", "gold": "CHILE", "pred": "Chile", "elapsed": 2.01, "em": 1, "f1": 1.0}
+{"id": "odql_13704", "question": "What is the name of the new town on the outskirts of Paris which is the site of 'Euro Disney', opened in 1992?", "gold": "MARNE-LA-VALLEE", "pred": "Marne-la-Vallée", "elapsed": 2.25, "em": 1, "f1": 1.0}
+{"id": "qw_16587", "question": "What epitaph is on Frank Sinatra's tombstone?", "gold": "The best is yet to come", "pred": "\"The Best Is Yet to Come\"", "elapsed": 1.25, "em": 1, "f1": 1.0}
+{"id": "sfq_13894", "question": "\"Which artist was known as \"\"Jack the Dripper'?\"", "gold": "Jackson Pollock", "pred": "Jackson Pollock", "elapsed": 0.93, "em": 1, "f1": 1.0}
+{"id": "bt_795", "question": "If cats are feline which creatures are ovine", "gold": "Sheep", "pred": "Sheep", "elapsed": 1.45, "em": 1, "f1": 1.0}
+{"id": "qb_4697", "question": "Brenda Ann Spencer’s justification for opening fire at a San Diego school on January 29th 1979 inspired which song by The Boomtown Rats?", "gold": "I Don’t Like Mondays", "pred": "I Don't Like Mondays", "elapsed": 1.98, "em": 1, "f1": 1.0}
+{"id": "qw_12459", "question": "Between 1987 and 2006, Ratu Sir Kamisese Mara, Commodore Frank Bainimarama, Mahendra Chaudhry, Laisenia Qarase, Lieutenant Colonel Sitiveni Rabuka, George Speight and Ratu Josefa Iloilo were involved in the politics of which country?", "gold": "Fiji", "pred": "Fiji", "elapsed": 2.45, "em": 1, "f1": 1.0}
+{"id": "odql_14686", "question": "In which country is the annual International Alphorn Festival held?", "gold": "SWITZERLAND", "pred": "Switzerland", "elapsed": 1.76, "em": 1, "f1": 1.0}
+{"id": "bb_7728", "question": "Who (at 2008) plays Doctor Gregory House in the TV series House?", "gold": "Hugh Laurie", "pred": "Hugh Laurie", "elapsed": 2.53, "em": 1, "f1": 1.0}
+{"id": "qz_2789", "question": "Who was the seventh president of the United States?", "gold": "Andrew Jackson", "pred": "Andrew Jackson", "elapsed": 1.42, "em": 1, "f1": 1.0}
+{"id": "sfq_21761", "question": "The Carnegie family fortune was built around Andrew Carnegie’s success in manufacture in which industry?", "gold": "Steel", "pred": "Steel", "elapsed": 1.29, "em": 1, "f1": 1.0}
+{"id": "qg_4036", "question": "What is the name of the convenience store operated by Apu on TVs The Simpson?", "gold": "Kwik-E-Mart", "pred": "Kwik-E-Mart", "elapsed": 2.51, "em": 1, "f1": 1.0}
+{"id": "sfq_23372", "question": "How is his holiness Tenzin Gyatso better known?", "gold": "The Dalai Lama", "pred": "The 14th Dalai Lama", "elapsed": 2.08, "em": 0, "f1": 0.8}
+{"id": "qw_12968", "question": "\"What were the last words of Romeo in Shakespeare's \"\"Romeo and Juliet\"\"?\"", "gold": "Thus with a kiss I die", "pred": "\"Thus with a kiss I die.\"", "elapsed": 1.07, "em": 1, "f1": 1.0}
+{"id": "wh_1535", "question": "\"The song \"\"Have yourself a merry little Christmas\"\" comes from which musical?\"", "gold": "MEET ME IN ST LOUIS", "pred": "Meet Me in St. Louis", "elapsed": 2.61, "em": 1, "f1": 1.0}
+{"id": "sfq_8996", "question": "Actor Norman Painting died in November 2009, which part in a log running radio series did he make his own?", "gold": "PHIL ARCHER", "pred": "Phil Archer in The Archers", "elapsed": 2.23, "em": 0, "f1": 0.6667}
+{"id": "sfq_15066", "question": "Which river enters the sea at Whitby in Yorkshire?", "gold": "Esk", "pred": "The River Esk.", "elapsed": 1.89, "em": 0, "f1": 0.6667}
+{"id": "sfq_15621", "question": "For which county did Ted Dexter play cricket for most of his career?", "gold": "Sussex", "pred": "Sussex", "elapsed": 1.57, "em": 1, "f1": 1.0}
+{"id": "odql_8616", "question": "Which woodwind instrument is the smallest of the flutefamily?", "gold": "PICCOLO", "pred": "Piccolo", "elapsed": 1.69, "em": 1, "f1": 1.0}
+{"id": "tc_1029", "question": "Who is featured on Puff Daddy's Can't Hold Me Down?", "gold": "Mase", "pred": "Mase", "elapsed": 1.76, "em": 1, "f1": 1.0}
+{"id": "bb_1493", "question": "Elizabeth Taylor made a fortune from what business aside from acting?", "gold": "Perfume", "pred": "Perfume", "elapsed": 1.82, "em": 1, "f1": 1.0}
+{"id": "qb_1191", "question": "‘The Night of the Long Knives’ refers to which leader eliminating many of his political enemies?", "gold": "Adolph Hitler", "pred": "Adolf Hitler", "elapsed": 1.64, "em": 1, "f1": 1.0}
+{"id": "qg_886", "question": "An equilateral triangle has all 3 sides of the same length. What type of triangle only has 2 sides of equal length?", "gold": "Isosceles triangle", "pred": "Isosceles", "elapsed": 1.79, "em": 1, "f1": 1.0}
+{"id": "jp_4292", "question": "What company makes Big Red and Juicy Fruit gum?", "gold": "Wrigley", "pred": "Wrigley", "elapsed": 2.07, "em": 1, "f1": 1.0}
+{"id": "qw_5775", "question": "\"Who, an influential English occultist and ceremonial magician, known today for his magical writings, was a hedonist, bisexual, recreational drug experimenter and social critic, and was called in the popular press of the day \"\"the wickedest man in the world\"\"?\"", "gold": "Aleister Crowley", "pred": "Aleister Crowley", "elapsed": 2.63, "em": 1, "f1": 1.0}
+{"id": "qb_4695", "question": "In November 1975 Juan Carlos was declared King of which European country?", "gold": "Spain", "pred": "Spain", "elapsed": 1.91, "em": 1, "f1": 1.0}
