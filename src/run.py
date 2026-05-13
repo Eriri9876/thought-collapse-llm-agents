@@ -79,13 +79,14 @@ def evaluate(pred: str, aliases: list[str]) -> dict:
     return {"em": em, "f1": round(best_f1, 4)}
 
 
-def run_pilot(n: int = 10, model: str = "deepseek-chat", seed: int = 42, dataset: str = "hotpotqa", hotpotqa_type: str = None):
+def run_pilot(n: int = 10, model: str = "deepseek-chat", seed: int = 42, dataset: str = "hotpotqa", hotpotqa_type: str = None, variants: list = None):
     LOG_DIR.mkdir(exist_ok=True)
     _notify("实验开始", f"正在加载数据集 {dataset}，n={n}...")
     samples = get_samples(n, seed=seed, dataset=dataset, hotpotqa_type=hotpotqa_type)
     _notify("数据加载完成", f"{dataset} {n} 条样本就绪，开始跑实验")
 
-    for variant in VARIANTS:
+    variants = variants or VARIANTS
+    for variant in variants:
         model_slug = model.replace("/", "_")
         task_tag = f"{dataset}_{hotpotqa_type}" if hotpotqa_type else dataset
         log_path = LOG_DIR / f"pilot_{variant}_{model_slug}_{task_tag}_n{n}_seed{seed}.jsonl"
@@ -147,6 +148,7 @@ if __name__ == "__main__":
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--dataset", type=str, default="hotpotqa")
     parser.add_argument("--hotpotqa_type", type=str, default=None, help="bridge or comparison")
+    parser.add_argument("--variants", nargs="+", default=None, choices=VARIANTS)
     args = parser.parse_args()
-    run_pilot(n=args.n, model=args.model, seed=args.seed, dataset=args.dataset, hotpotqa_type=args.hotpotqa_type)
+    run_pilot(n=args.n, model=args.model, seed=args.seed, dataset=args.dataset, hotpotqa_type=args.hotpotqa_type, variants=args.variants)
     _notify("🎉 全部完成", f"{args.dataset} n={args.n} 三个变体均已跑完")

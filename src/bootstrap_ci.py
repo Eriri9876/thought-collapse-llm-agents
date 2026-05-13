@@ -54,10 +54,17 @@ CONFIGS = [
     ("32B", "Qwen_Qwen2.5-32B-Instruct", "triviaqa", None, 200, _S3),
     ("V3",  "deepseek-chat",             "triviaqa", None, 100, _S3),
 
-    # MATH hard (14B/32B: 3 seeds; V3: seed=42 only)
+    # MATH hard (14B/32B/V3: all 3 seeds; V3 补做 2026-05-12)
     ("14B", "Qwen_Qwen2.5-14B-Instruct", "math_hard", None, 100, _S3),
     ("32B", "Qwen_Qwen2.5-32B-Instruct", "math_hard", None, 100, _S3),
-    ("V3",  "deepseek-chat",             "math_hard", None, 100, [42]),
+    ("V3",  "deepseek-chat",             "math_hard", None, 100, _S3),
+
+    # Llama-3.1-70B (cross-family, Stage 4 — 3 seeds × 5 tasks)
+    ("L70B", "meta-llama_llama-3.1-70b-instruct", "gsm8k",        None, 100, _S3),
+    ("L70B", "meta-llama_llama-3.1-70b-instruct", "math_hard",    None, 100, _S3),
+    ("L70B", "meta-llama_llama-3.1-70b-instruct", "hotpotqa",     None, 100, _S3),
+    ("L70B", "meta-llama_llama-3.1-70b-instruct", "webquestions", None, 100, _S3),
+    ("L70B", "meta-llama_llama-3.1-70b-instruct", "triviaqa",     None, 100, _S3),
 ]
 
 V3_HOTPOTQA_SLUG = "deepseek-chat"
