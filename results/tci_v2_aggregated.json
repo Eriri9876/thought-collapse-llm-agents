@@ -1,0 +1,878 @@
+{
+  "cells_total": 65,
+  "rows": [
+    {
+      "model": "L8B",
+      "task": "gsm8k",
+      "k_seeds": 1,
+      "seeds": [
+        42
+      ],
+      "n_total": 28,
+      "mismatched": [
+        0.3484,
+        NaN,
+        0.0
+      ],
+      "follows_q": [
+        0.0714,
+        NaN,
+        0.0
+      ],
+      "sim_wrong": [
+        0.8751,
+        NaN
+      ],
+      "per_seed_mismatched": {
+        "42": 0.3484
+      },
+      "per_seed_followsq": {
+        "42": 0.0714
+      }
+    },
+    {
+      "model": "L8B",
+      "task": "math_hard",
+      "k_seeds": 1,
+      "seeds": [
+        42
+      ],
+      "n_total": 41,
+      "mismatched": [
+        0.3011,
+        NaN,
+        0.0
+      ],
+      "follows_q": [
+        0.3171,
+        NaN,
+        0.0
+      ],
+      "sim_wrong": [
+        0.5065,
+        NaN
+      ],
+      "per_seed_mismatched": {
+        "42": 0.3011
+      },
+      "per_seed_followsq": {
+        "42": 0.3171
+      }
+    },
+    {
+      "model": "L8B",
+      "task": "hotpotqa",
+      "k_seeds": 1,
+      "seeds": [
+        42
+      ],
+      "n_total": 50,
+      "mismatched": [
+        0.6255,
+        NaN,
+        0.0
+      ],
+      "follows_q": [
+        0.86,
+        NaN,
+        0.0
+      ],
+      "sim_wrong": [
+        0.1482,
+        NaN
+      ],
+      "per_seed_mismatched": {
+        "42": 0.6255
+      },
+      "per_seed_followsq": {
+        "42": 0.86
+      }
+    },
+    {
+      "model": "L8B",
+      "task": "webquestions",
+      "k_seeds": 1,
+      "seeds": [
+        42
+      ],
+      "n_total": 50,
+      "mismatched": [
+        0.6316,
+        NaN,
+        0.0
+      ],
+      "follows_q": [
+        1.0,
+        NaN,
+        0.0
+      ],
+      "sim_wrong": [
+        0.0303,
+        NaN
+      ],
+      "per_seed_mismatched": {
+        "42": 0.6316
+      },
+      "per_seed_followsq": {
+        "42": 1.0
+      }
+    },
+    {
+      "model": "L8B",
+      "task": "triviaqa",
+      "k_seeds": 1,
+      "seeds": [
+        42
+      ],
+      "n_total": 50,
+      "mismatched": [
+        0.6291,
+        NaN,
+        0.0
+      ],
+      "follows_q": [
+        0.96,
+        NaN,
+        0.0
+      ],
+      "sim_wrong": [
+        0.0604,
+        NaN
+      ],
+      "per_seed_mismatched": {
+        "42": 0.6291
+      },
+      "per_seed_followsq": {
+        "42": 0.96
+      }
+    },
+    {
+      "model": "14B",
+      "task": "gsm8k",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 123,
+      "mismatched": [
+        0.5969333333333333,
+        0.023349613368200448,
+        0.08020000000000005
+      ],
+      "follows_q": [
+        0.8220000000000001,
+        0.015750661361775678,
+        0.05449999999999999
+      ],
+      "sim_wrong": [
+        0.16983333333333336,
+        0.005354229895865301
+      ],
+      "per_seed_mismatched": {
+        "42": 0.5538,
+        "7": 0.634,
+        "123": 0.603
+      },
+      "per_seed_followsq": {
+        "42": 0.7955,
+        "7": 0.8205,
+        "123": 0.85
+      }
+    },
+    {
+      "model": "14B",
+      "task": "math_hard",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 136,
+      "mismatched": [
+        0.34789999999999993,
+        0.04059560731573471,
+        0.1406
+      ],
+      "follows_q": [
+        0.9035000000000001,
+        0.022027558496876876,
+        0.07279999999999998
+      ],
+      "sim_wrong": [
+        0.07536666666666667,
+        0.015638876060780214
+      ],
+      "per_seed_mismatched": {
+        "42": 0.2784,
+        "7": 0.3463,
+        "123": 0.419
+      },
+      "per_seed_followsq": {
+        "42": 0.9333,
+        "7": 0.8605,
+        "123": 0.9167
+      }
+    },
+    {
+      "model": "14B",
+      "task": "hotpotqa",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 149,
+      "mismatched": [
+        0.7611666666666667,
+        0.024640098304277217,
+        0.08110000000000006
+      ],
+      "follows_q": [
+        0.9864,
+        0.013599999999999982,
+        0.04079999999999995
+      ],
+      "sim_wrong": [
+        0.03553333333333333,
+        0.0061428368401288715
+      ],
+      "per_seed_mismatched": {
+        "42": 0.7283,
+        "7": 0.7458,
+        "123": 0.8094
+      },
+      "per_seed_followsq": {
+        "42": 0.9592,
+        "7": 1.0,
+        "123": 1.0
+      }
+    },
+    {
+      "model": "14B",
+      "task": "webquestions",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 150,
+      "mismatched": [
+        0.8350666666666666,
+        0.010772237980619973,
+        0.03290000000000004
+      ],
+      "follows_q": [
+        0.9933333333333333,
+        0.006666666666666672,
+        0.020000000000000018
+      ],
+      "sim_wrong": [
+        0.042899999999999994,
+        0.008361220006673668
+      ],
+      "per_seed_mismatched": {
+        "42": 0.8566,
+        "7": 0.8249,
+        "123": 0.8237
+      },
+      "per_seed_followsq": {
+        "42": 1.0,
+        "7": 0.98,
+        "123": 1.0
+      }
+    },
+    {
+      "model": "14B",
+      "task": "triviaqa",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 147,
+      "mismatched": [
+        0.8328666666666668,
+        0.014696976257418075,
+        0.050899999999999945
+      ],
+      "follows_q": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "sim_wrong": [
+        0.045566666666666665,
+        0.0024902030260826337
+      ],
+      "per_seed_mismatched": {
+        "42": 0.858,
+        "7": 0.8071,
+        "123": 0.8335
+      },
+      "per_seed_followsq": {
+        "42": 1.0,
+        "7": 1.0,
+        "123": 1.0
+      }
+    },
+    {
+      "model": "32B",
+      "task": "gsm8k",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 146,
+      "mismatched": [
+        0.7720666666666668,
+        0.026621691239371793,
+        0.08940000000000003
+      ],
+      "follows_q": [
+        0.9116666666666666,
+        0.03531276130680112,
+        0.11919999999999997
+      ],
+      "sim_wrong": [
+        0.1655,
+        0.021283796653792764
+      ],
+      "per_seed_mismatched": {
+        "42": 0.8233,
+        "7": 0.759,
+        "123": 0.7339
+      },
+      "per_seed_followsq": {
+        "42": 0.8958,
+        "7": 0.86,
+        "123": 0.9792
+      }
+    },
+    {
+      "model": "32B",
+      "task": "math_hard",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 144,
+      "mismatched": [
+        0.47026666666666667,
+        0.025142416572619085,
+        0.07939999999999997
+      ],
+      "follows_q": [
+        0.9170666666666666,
+        0.020176664188556483,
+        0.06159999999999999
+      ],
+      "sim_wrong": [
+        0.0522,
+        0.011768743914850615
+      ],
+      "per_seed_mismatched": {
+        "42": 0.5203,
+        "7": 0.4496,
+        "123": 0.4409
+      },
+      "per_seed_followsq": {
+        "42": 0.8958,
+        "7": 0.898,
+        "123": 0.9574
+      }
+    },
+    {
+      "model": "32B",
+      "task": "hotpotqa",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 123,
+      "mismatched": [
+        0.7009,
+        0.022937305857489015,
+        0.07379999999999998
+      ],
+      "follows_q": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "sim_wrong": [
+        0.008866666666666667,
+        0.0011864981153705126
+      ],
+      "per_seed_mismatched": {
+        "42": 0.7463,
+        "7": 0.6725,
+        "123": 0.6839
+      },
+      "per_seed_followsq": {
+        "42": 1.0,
+        "7": 1.0,
+        "123": 1.0
+      }
+    },
+    {
+      "model": "32B",
+      "task": "webquestions",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 145,
+      "mismatched": [
+        0.7563333333333334,
+        0.01822053176440737,
+        0.06030000000000002
+      ],
+      "follows_q": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "sim_wrong": [
+        0.0305,
+        0.011982209033952517
+      ],
+      "per_seed_mismatched": {
+        "42": 0.7208,
+        "7": 0.7671,
+        "123": 0.7811
+      },
+      "per_seed_followsq": {
+        "42": 1.0,
+        "7": 1.0,
+        "123": 1.0
+      }
+    },
+    {
+      "model": "32B",
+      "task": "triviaqa",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 125,
+      "mismatched": [
+        0.7571333333333333,
+        0.023090859182320973,
+        0.07399999999999995
+      ],
+      "follows_q": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "sim_wrong": [
+        0.016900000000000002,
+        0.004352393977265079
+      ],
+      "per_seed_mismatched": {
+        "42": 0.8029,
+        "7": 0.7396,
+        "123": 0.7289
+      },
+      "per_seed_followsq": {
+        "42": 1.0,
+        "7": 1.0,
+        "123": 1.0
+      }
+    },
+    {
+      "model": "V3",
+      "task": "gsm8k",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 150,
+      "mismatched": [
+        0.4434,
+        0.012705248259413635,
+        0.03999999999999998
+      ],
+      "follows_q": [
+        0.8799999999999999,
+        0.030550504633038926,
+        0.09999999999999998
+      ],
+      "sim_wrong": [
+        0.14266666666666666,
+        0.024744853561453495
+      ],
+      "per_seed_mismatched": {
+        "42": 0.4687,
+        "7": 0.4328,
+        "123": 0.4287
+      },
+      "per_seed_followsq": {
+        "42": 0.84,
+        "7": 0.94,
+        "123": 0.86
+      }
+    },
+    {
+      "model": "V3",
+      "task": "math_hard",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 128,
+      "mismatched": [
+        0.22319999999999998,
+        0.04461752271623038,
+        0.13790000000000002
+      ],
+      "follows_q": [
+        0.9535333333333332,
+        0.011404287692696007,
+        0.03620000000000001
+      ],
+      "sim_wrong": [
+        0.0574,
+        0.007054785609782909
+      ],
+      "per_seed_mismatched": {
+        "42": 0.272,
+        "7": 0.1341,
+        "123": 0.2635
+      },
+      "per_seed_followsq": {
+        "42": 0.94,
+        "7": 0.9762,
+        "123": 0.9444
+      }
+    },
+    {
+      "model": "V3",
+      "task": "hotpotqa",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 150,
+      "mismatched": [
+        0.706,
+        0.045528708891570104,
+        0.15770000000000006
+      ],
+      "follows_q": [
+        0.9933333333333333,
+        0.006666666666666672,
+        0.020000000000000018
+      ],
+      "sim_wrong": [
+        0.014,
+        0.0030005555041247504
+      ],
+      "per_seed_mismatched": {
+        "42": 0.6265,
+        "7": 0.7073,
+        "123": 0.7842
+      },
+      "per_seed_followsq": {
+        "42": 0.98,
+        "7": 1.0,
+        "123": 1.0
+      }
+    },
+    {
+      "model": "V3",
+      "task": "webquestions",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 150,
+      "mismatched": [
+        0.8288000000000001,
+        0.01676554005492616,
+        0.05149999999999999
+      ],
+      "follows_q": [
+        0.9933333333333333,
+        0.006666666666666672,
+        0.020000000000000018
+      ],
+      "sim_wrong": [
+        0.012366666666666666,
+        0.003991797144701174
+      ],
+      "per_seed_mismatched": {
+        "42": 0.8468,
+        "7": 0.8443,
+        "123": 0.7953
+      },
+      "per_seed_followsq": {
+        "42": 1.0,
+        "7": 1.0,
+        "123": 0.98
+      }
+    },
+    {
+      "model": "V3",
+      "task": "triviaqa",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 150,
+      "mismatched": [
+        0.6746666666666666,
+        0.035865783756171325,
+        0.11069999999999991
+      ],
+      "follows_q": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "sim_wrong": [
+        0.0076,
+        0.0034394767043839677
+      ],
+      "per_seed_mismatched": {
+        "42": 0.6421,
+        "7": 0.7463,
+        "123": 0.6356
+      },
+      "per_seed_followsq": {
+        "42": 1.0,
+        "7": 1.0,
+        "123": 1.0
+      }
+    },
+    {
+      "model": "L70B",
+      "task": "gsm8k",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 139,
+      "mismatched": [
+        0.6111000000000001,
+        0.01287102689505905,
+        0.0413
+      ],
+      "follows_q": [
+        0.7474666666666666,
+        0.022587926962084053,
+        0.07429999999999992
+      ],
+      "sim_wrong": [
+        0.2487,
+        0.038838640552933866
+      ],
+      "per_seed_mismatched": {
+        "42": 0.6014,
+        "7": 0.6366,
+        "123": 0.5953
+      },
+      "per_seed_followsq": {
+        "42": 0.7174,
+        "7": 0.7917,
+        "123": 0.7333
+      }
+    },
+    {
+      "model": "L70B",
+      "task": "math_hard",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 143,
+      "mismatched": [
+        0.16090000000000002,
+        0.0190938035323854,
+        0.06459999999999999
+      ],
+      "follows_q": [
+        0.5950000000000001,
+        0.025203769559333757,
+        0.08729999999999993
+      ],
+      "sim_wrong": [
+        0.3244666666666667,
+        0.005569061361167108
+      ],
+      "per_seed_mismatched": {
+        "42": 0.1245,
+        "7": 0.1691,
+        "123": 0.1891
+      },
+      "per_seed_followsq": {
+        "42": 0.6383,
+        "7": 0.551,
+        "123": 0.5957
+      }
+    },
+    {
+      "model": "L70B",
+      "task": "hotpotqa",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 150,
+      "mismatched": [
+        0.6154000000000001,
+        0.021365704606526183,
+        0.07400000000000007
+      ],
+      "follows_q": [
+        0.9866666666666667,
+        0.006666666666666672,
+        0.020000000000000018
+      ],
+      "sim_wrong": [
+        0.008966666666666666,
+        0.004636929060392353
+      ],
+      "per_seed_mismatched": {
+        "42": 0.578,
+        "7": 0.652,
+        "123": 0.6162
+      },
+      "per_seed_followsq": {
+        "42": 0.98,
+        "7": 1.0,
+        "123": 0.98
+      }
+    },
+    {
+      "model": "L70B",
+      "task": "webquestions",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 150,
+      "mismatched": [
+        0.6683,
+        0.027806713817589687,
+        0.0958
+      ],
+      "follows_q": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "sim_wrong": [
+        0.007133333333333333,
+        0.0035927395922579443
+      ],
+      "per_seed_mismatched": {
+        "42": 0.6625,
+        "7": 0.7191,
+        "123": 0.6233
+      },
+      "per_seed_followsq": {
+        "42": 1.0,
+        "7": 1.0,
+        "123": 1.0
+      }
+    },
+    {
+      "model": "L70B",
+      "task": "triviaqa",
+      "k_seeds": 3,
+      "seeds": [
+        42,
+        7,
+        123
+      ],
+      "n_total": 150,
+      "mismatched": [
+        0.6419,
+        0.023974430823970227,
+        0.07640000000000002
+      ],
+      "follows_q": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "sim_wrong": [
+        0.011866666666666666,
+        0.0027180466842528254
+      ],
+      "per_seed_mismatched": {
+        "42": 0.6231,
+        "7": 0.6895,
+        "123": 0.6131
+      },
+      "per_seed_followsq": {
+        "42": 1.0,
+        "7": 1.0,
+        "123": 1.0
+      }
+    }
+  ],
+  "anomalies": [
+    "  [LOW follows_q] L8B × gsm8k mean=0.071 (seeds: s42=0.07)",
+    "  [LOW follows_q] L8B × math_hard mean=0.317 (seeds: s42=0.32)",
+    "  [DEVIATION] 14B × gsm8k seed7 sim_mismatched=0.634 vs seed42=0.554 (Δ=+0.080)",
+    "  [DEVIATION] 14B × math_hard seed7 sim_mismatched=0.346 vs seed42=0.278 (Δ=+0.068)",
+    "  [DEVIATION] 14B × math_hard seed123 sim_mismatched=0.419 vs seed42=0.278 (Δ=+0.141)",
+    "  [DEVIATION] 14B × hotpotqa seed123 sim_mismatched=0.809 vs seed42=0.728 (Δ=+0.081)",
+    "  [DEVIATION] 14B × triviaqa seed7 sim_mismatched=0.807 vs seed42=0.858 (Δ=-0.051)",
+    "  [DEVIATION] 32B × gsm8k seed7 sim_mismatched=0.759 vs seed42=0.823 (Δ=-0.064)",
+    "  [DEVIATION] 32B × gsm8k seed123 sim_mismatched=0.734 vs seed42=0.823 (Δ=-0.089)",
+    "  [DEVIATION] 32B × math_hard seed7 sim_mismatched=0.450 vs seed42=0.520 (Δ=-0.071)",
+    "  [DEVIATION] 32B × math_hard seed123 sim_mismatched=0.441 vs seed42=0.520 (Δ=-0.079)",
+    "  [DEVIATION] 32B × hotpotqa seed7 sim_mismatched=0.672 vs seed42=0.746 (Δ=-0.074)",
+    "  [DEVIATION] 32B × hotpotqa seed123 sim_mismatched=0.684 vs seed42=0.746 (Δ=-0.062)",
+    "  [DEVIATION] 32B × webquestions seed123 sim_mismatched=0.781 vs seed42=0.721 (Δ=+0.060)",
+    "  [DEVIATION] 32B × triviaqa seed7 sim_mismatched=0.740 vs seed42=0.803 (Δ=-0.063)",
+    "  [DEVIATION] 32B × triviaqa seed123 sim_mismatched=0.729 vs seed42=0.803 (Δ=-0.074)",
+    "  [DEVIATION] V3 × math_hard seed7 sim_mismatched=0.134 vs seed42=0.272 (Δ=-0.138)",
+    "  [DEVIATION] V3 × hotpotqa seed7 sim_mismatched=0.707 vs seed42=0.626 (Δ=+0.081)",
+    "  [DEVIATION] V3 × hotpotqa seed123 sim_mismatched=0.784 vs seed42=0.626 (Δ=+0.158)",
+    "  [UNSTABLE sim_mismatched] V3 × hotpotqa spread=0.158 (values: s42=0.626, s7=0.707, s123=0.784)",
+    "  [DEVIATION] V3 × webquestions seed123 sim_mismatched=0.795 vs seed42=0.847 (Δ=-0.051)",
+    "  [DEVIATION] V3 × triviaqa seed7 sim_mismatched=0.746 vs seed42=0.642 (Δ=+0.104)",
+    "  [DEVIATION] L70B × math_hard seed123 sim_mismatched=0.189 vs seed42=0.124 (Δ=+0.065)",
+    "  [DEVIATION] L70B × hotpotqa seed7 sim_mismatched=0.652 vs seed42=0.578 (Δ=+0.074)",
+    "  [DEVIATION] L70B × webquestions seed7 sim_mismatched=0.719 vs seed42=0.662 (Δ=+0.057)",
+    "  [DEVIATION] L70B × triviaqa seed7 sim_mismatched=0.690 vs seed42=0.623 (Δ=+0.066)"
+  ]
+}
