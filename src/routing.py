@@ -24,9 +24,10 @@ OUT_DIR = Path("results")
 OUT_DIR.mkdir(exist_ok=True)
 
 MODELS = {
-    "14B": "Qwen_Qwen2.5-14B-Instruct",
-    "32B": "Qwen_Qwen2.5-32B-Instruct",
-    "V3":  "deepseek-chat",
+    "14B":  "Qwen_Qwen2.5-14B-Instruct",
+    "32B":  "Qwen_Qwen2.5-32B-Instruct",
+    "V3":   "deepseek-chat",
+    "L70B": "meta-llama_llama-3.1-70b-instruct",
 }
 TASKS = ["gsm8k", "hotpotqa", "webquestions", "triviaqa", "math_hard"]
 
