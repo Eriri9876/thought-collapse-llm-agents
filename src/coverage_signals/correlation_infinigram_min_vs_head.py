@@ -26,6 +26,7 @@ Usage::
 from __future__ import annotations
 
 import csv
+import hashlib
 import json
 import sys
 import warnings
@@ -62,10 +63,29 @@ def _jsonl(p: Path) -> list[dict]:
             if l.strip()]
 
 
+def _canonical_id(rec: dict, task: str) -> str | None:
+    # For math_hard the legacy probe/pilot logs and the n=100 signal file used
+    # different id schemes (Python-randomised hash() vs SHA-256). Both contain
+    # the question text, so we re-key by SHA-256[:8] of the question — the same
+    # canonical form used by src.data._math_id today.
+    if task == "math_hard":
+        q = rec.get("question")
+        if q is None:
+            return rec.get("id")
+        h = hashlib.sha256(q.encode("utf-8")).hexdigest()[:8]
+        return f"math_{h}"
+    return rec.get("id")
+
+
 def load_signal(task: str, n: int = 50, seed: int = 42) -> dict[str, dict]:
     """qid → {head_ct, min_ct, max_ct, mean_ct, n_ents}"""
-    pv = _jsonl(SIG_DIR / f"infinigram_min_{task}_n{n}_seed{seed}.jsonl")
-    return {r["id"]: {
+    # math_hard signals were re-extracted at n=100 to align with the n=100
+    # probe/pilot logs (the legacy n=50 file used a pre-SHA256 id scheme).
+    if task == "math_hard":
+        pv = _jsonl(SIG_DIR / f"infinigram_min_{task}_n100_seed{seed}.jsonl")
+    else:
+        pv = _jsonl(SIG_DIR / f"infinigram_min_{task}_n{n}_seed{seed}.jsonl")
+    return {_canonical_id(r, task): {
         "head_ct": r.get("head_count"),
         "min_ct":  r.get("min_count"),
         "max_ct":  r.get("max_count"),
@@ -77,7 +97,7 @@ def load_signal(task: str, n: int = 50, seed: int = 42) -> dict[str, dict]:
 def load_direct_em(model_slug: str, task: str,
                    n: int = 100, seed: int = 42) -> dict[str, int]:
     p = LOG_DIR / f"probe_direct_{model_slug}_{task}_n{n}_seed{seed}.jsonl"
-    return {r["id"]: int(r["em"]) for r in _jsonl(p)}
+    return {_canonical_id(r, task): int(r["em"]) for r in _jsonl(p)}
 
 
 def _pilot_path(variant: str, model_slug: str, task: str,
@@ -96,7 +116,7 @@ def load_pilot_em(variant: str, model_slug: str, task: str,
             p = _pilot_path(variant, model_slug, task, n, seed)
             if p.exists():
                 for r in _jsonl(p):
-                    out.setdefault(r["id"], []).append(int(r["em"]))
+                    out.setdefault(_canonical_id(r, task), []).append(int(r["em"]))
                 break
     return out
 
