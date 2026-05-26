@@ -106,12 +106,17 @@ for task in webquestions triviaqa hotpotqa gsm8k math_hard; do
   python -m src.coverage_signals.extract_pageview      --task "$task" --n 50 --seed 42
   python -m src.coverage_signals.extract_pageview_min  --task "$task" --n 50 --seed 42
 done
+# MATH-hard's multi-entity-min signal is also re-extracted at n=100 to align
+# with the n=100 probe/pilot logs — required for the per-cell correlations
+# (see "Note on MATH-hard" below).
+python -m src.coverage_signals.extract_pageview_min  --task math_hard --n 100 --seed 42
 
 # InfiniGram counts over Dolma v1.7 — same 5 × 50 questions
 for task in webquestions triviaqa hotpotqa gsm8k math_hard; do
   python -m src.coverage_signals.extract_infinigram     --task "$task" --n 50 --seed 42
   python -m src.coverage_signals.extract_infinigram_min --task "$task" --n 50 --seed 42
 done
+python -m src.coverage_signals.extract_infinigram_min --task math_hard --n 100 --seed 42
 
 # Correlate against per-question Direct EM and sign(Thought-Gap) — produces Table 7
 bash scripts/reproduce_section7.sh
@@ -119,7 +124,7 @@ bash scripts/reproduce_section7.sh
 
 Both APIs are cached on disk under `.cache/` (via `src/cache.py`); reruns are instant.
 
-> **Note on MATH-hard:** signal jsonl files for MATH-hard are committed (used to compute the cross-task median reported in the paper), but per-cell correlations against per-question Direct EM are not computable from the public artifacts: the committed `logs/probe_direct_*_math_hard_*.jsonl` predate a hash-stability fix and use a process-random ID space, whereas the §7 signal extraction uses a stable SHA-256 ID. This is the "three MATH-hard cells lack sufficient data" caveat in the paper.
+> **Note on MATH-hard.** The committed `logs/probe_direct_*_math_hard_*.jsonl` and `logs/pilot_*_math_hard_*.jsonl` predate a hash-stability fix and use the original process-random ID space; the §7 signal extraction (and current `src/data._math_id`) uses a stable SHA-256 ID. To join the two without re-running probes, `correlation_*_min_vs_head.py` re-keys every MATH-hard record by `sha256(question)[:8]` at load time (see `_canonical_id`). The signal files for MATH-hard live at `experiments/coverage_signals/outputs/{pageview,infinigram}_min_math_hard_n100_seed42.jsonl` (n=100 to match the probe/pilot logs). All three MATH-hard cells (14B / 32B / V3) thus enter the 15-cell §7 table.
 
 ---
 
@@ -143,7 +148,7 @@ The downstream artefact, **Coverage-Aware Routing (CAR)**, uses calibration-set 
 - **Direct > Full on high-coverage tasks.** Bypassing ReAct entirely outperforms full ReAct by up to 4× EM on WebQuestions, exposing scaffold degradation that goes beyond mere Thought redundancy.
 - **TCI follow-question rates above 0.85** on high-coverage tasks across 24 multi-seed mechanism-layer cells (Qwen-14B/32B/V3 + Llama-70B × 5 tasks × 3 seeds): models effectively bypass the Thought content while preserving near-100% question-following. Cross-seed standard errors stay below 0.05 on the `follows_question` metric, ruling out the single-seed prompt-sensitivity concern.
 - **Weak-end boundary: Llama-3.1-8B reproduces Lanham's CoT-fidelity collapse.** On GSM8K, 8B exhibits Gap=−0.08 (Thought *hurts*), TCI follow-question = 7.1%, and the action-similarity-to-misdirection (sim_to_wrong) = 0.875 — i.e. the model parrots the corrupted Thought almost verbatim. This is the mirror image of right-end Capacity Domination: weak-end *Thought hijacks Action*, right-end *Question hijacks Action*; both end-states make the Thought-Gap shrink, by opposite mechanisms.
-- **Per-query routing via popularity proxies yields a symmetric null** (Section 7). Across 12 (model, task) cells, neither Wikipedia pageview nor InfiniGram-on-Dolma counts — under either head-entity or multi-entity-min selection — produce per-question correlations beyond chance: 3 of 48 nominal hits at α=0.05 (chance expectation ≈ 2.4). Coverage-Aware Routing's per-task estimator stands; lifting it to per-query needs a different signal class.
+- **Per-query routing via popularity proxies yields a symmetric null** (Section 7). Across all **15 (model, task) cells** (5 tasks × 3 primary models, including the three MATH-hard cells recoverable via the canonical-id join described above), neither Wikipedia pageview nor InfiniGram-on-Dolma counts — under either head-entity or multi-entity-min selection — produce per-question correlations beyond chance: **3 of 120 Pearson tests** significant at α=0.05 (**chance expectation = 6.0**, observed hits below chance). All three surviving hits sit on non-MATH cells (HotpotQA-32B head, TriviaQA-32B min, GSM8K-V3 head × thought-gap sign); none of the 24 new MATH-hard tests cross α=0.05. Coverage-Aware Routing's per-task estimator stands; lifting it to per-query needs a different signal class.
 
 ---
 

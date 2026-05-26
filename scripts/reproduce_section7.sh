@@ -17,12 +17,13 @@
 # API:     none required (raw signal extraction was done offline; see README §7)
 # Runtime: < 30 seconds
 #
-# Note on MATH-hard: signal files exist (used for cross-task median quoted in
-# the paper) but per-cell correlation reports "insufficient data" because the
-# committed logs/probe_direct_*_math_hard_*.jsonl use the original
-# process-random ID space, whereas signal extraction (run later) uses a stable
-# SHA-256 ID. The two ID spaces don't join. This is reflected in the paper's
-# "12 evaluable cells (three MATH-hard cells lack sufficient data)" wording.
+# Note on MATH-hard: the committed logs/probe_direct_*_math_hard_*.jsonl and
+# logs/pilot_*_math_hard_*.jsonl predate a hash-stability fix and use the
+# original process-random ID space; the §7 signal files (n=100 for math_hard)
+# use stable SHA-256 IDs. correlation_*_min_vs_head.py re-keys every MATH-hard
+# record by sha256(question)[:8] at load time (_canonical_id) so the two
+# spaces join, yielding 15 evaluable cells (5 tasks × 3 models) and 120
+# Pearson tests in total — all three MATH cells included.
 
 set -euo pipefail
 cd "$(dirname "$0")/.."
